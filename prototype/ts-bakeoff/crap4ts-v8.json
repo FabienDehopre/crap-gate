@@ -1,0 +1,502 @@
+{
+ "tool": "crap4ts",
+ "entries": [
+  {
+   "name": "ScoringEngineService.computeScore",
+   "module": "app.services.scoring-engine.service",
+   "complexity": 41,
+   "coverage": 100,
+   "crap": 41
+  },
+  {
+   "name": "isReportIssueError",
+   "module": "app.services.report-issue.service",
+   "complexity": 6,
+   "coverage": 100,
+   "crap": 6
+  },
+  {
+   "name": "ScoringEngineService.computeColumnStats",
+   "module": "app.services.scoring-engine.service",
+   "complexity": 6,
+   "coverage": 100,
+   "crap": 6
+  },
+  {
+   "name": "allCellsFilled",
+   "module": "app.services.session.store",
+   "complexity": 5,
+   "coverage": 85.71428571428571,
+   "crap": 5.072886297376093
+  },
+  {
+   "name": "fillAllCellsForGame",
+   "module": "app.components.game-over.game-over.component.spec",
+   "complexity": 5,
+   "coverage": 100,
+   "crap": 5
+  },
+  {
+   "name": "isValidPersistedState",
+   "module": "app.services.session.store",
+   "complexity": 5,
+   "coverage": 100,
+   "crap": 5
+  },
+  {
+   "name": "TurnstileComponent.reset",
+   "module": "app.components.turnstile.turnstile.component",
+   "complexity": 2,
+   "coverage": 20,
+   "crap": 4.048
+  },
+  {
+   "name": "ScoringEngineService.computeYahtzeeBonus",
+   "module": "app.services.scoring-engine.service",
+   "complexity": 4,
+   "coverage": 100,
+   "crap": 4
+  },
+  {
+   "name": "hasAnyScore",
+   "module": "app.services.session.store",
+   "complexity": 4,
+   "coverage": 100,
+   "crap": 4
+  },
+  {
+   "name": "ToastService.dismiss",
+   "module": "app.services.toast.service",
+   "complexity": 2,
+   "coverage": 28.57142857142857,
+   "crap": 3.4577259475218662
+  },
+  {
+   "name": "GameCountPickerComponent.onCountChange",
+   "module": "app.components.game-count-picker.game-count-picker.component",
+   "complexity": 3,
+   "coverage": 100,
+   "crap": 3
+  },
+  {
+   "name": "columnCells",
+   "module": "app.models.game-cells",
+   "complexity": 3,
+   "coverage": 100,
+   "crap": 3
+  },
+  {
+   "name": "nextUnfilledColumn",
+   "module": "app.models.game.model",
+   "complexity": 3,
+   "coverage": 100,
+   "crap": 3
+  },
+  {
+   "name": "ToastService.show",
+   "module": "app.services.toast.service",
+   "complexity": 2,
+   "coverage": 75,
+   "crap": 2.0625
+  },
+  {
+   "name": "DiceInputComponent.confirm",
+   "module": "app.components.dice-input.dice-input.component",
+   "complexity": 2,
+   "coverage": 80,
+   "crap": 2.032
+  },
+  {
+   "name": "ScoreSheetComponent.getPotentialDisplayScore",
+   "module": "app.components.score-sheet.score-sheet.component",
+   "complexity": 2,
+   "coverage": 83.33333333333334,
+   "crap": 2.0185185185185186
+  },
+  {
+   "name": "SuggestionBarComponent.onAccept",
+   "module": "app.components.suggestion-bar.suggestion-bar.component",
+   "complexity": 2,
+   "coverage": 85.71428571428571,
+   "crap": 2.011661807580175
+  },
+  {
+   "name": "SuggestionEngineService.computeSuggestions",
+   "module": "app.services.suggestion-engine.service",
+   "complexity": 2,
+   "coverage": 93.33333333333333,
+   "crap": 2.0011851851851854
+  },
+  {
+   "name": "ClearSessionButtonComponent.onClearClick",
+   "module": "app.components.clear-session-button.clear-session-button.component",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "DiceInputComponent.increment",
+   "module": "app.components.dice-input.dice-input.component",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "DiceInputComponent.decrement",
+   "module": "app.components.dice-input.dice-input.component",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "GameCountPickerComponent.onConfirm",
+   "module": "app.components.game-count-picker.game-count-picker.component",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "setup",
+   "module": "app.components.language-picker.language-picker.component.spec",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "ScoreSheetComponent.getCellDisplayValue",
+   "module": "app.components.score-sheet.score-sheet.component",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "ScoreSheetComponent.isAvailableCell",
+   "module": "app.components.score-sheet.score-sheet.component",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "ScoreSheetComponent.isCategoryAvailable",
+   "module": "app.components.score-sheet.score-sheet.component",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "sectionOf",
+   "module": "app.models.game-cells",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "addYahtzeeBonus",
+   "module": "app.models.game-cells",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "eachCell",
+   "module": "app.models.game-cells",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "GameStateAnonymizerService.anonymize",
+   "module": "app.services.game-state-anonymizer.service",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "ScoringEngineService.computeUpperBonus",
+   "module": "app.services.scoring-engine.service",
+   "complexity": 2,
+   "coverage": 100,
+   "crap": 2
+  },
+  {
+   "name": "TurnstileComponent.constructor",
+   "module": "app.components.turnstile.turnstile.component",
+   "complexity": 1,
+   "coverage": 7.142857142857142,
+   "crap": 1.800655976676385
+  },
+  {
+   "name": "TurnstileService.render",
+   "module": "app.components.turnstile.turnstile.service",
+   "complexity": 1,
+   "coverage": 66.66666666666666,
+   "crap": 1.0370370370370372
+  },
+  {
+   "name": "TurnstileService.reset",
+   "module": "app.components.turnstile.turnstile.service",
+   "complexity": 1,
+   "coverage": 66.66666666666666,
+   "crap": 1.0370370370370372
+  },
+  {
+   "name": "TurnstileService.remove",
+   "module": "app.components.turnstile.turnstile.service",
+   "complexity": 1,
+   "coverage": 66.66666666666666,
+   "crap": 1.0370370370370372
+  },
+  {
+   "name": "TranslocoHttpLoader.getTranslation",
+   "module": "app.transloco-loader",
+   "complexity": 1,
+   "coverage": 66.66666666666666,
+   "crap": 1.0370370370370372
+  },
+  {
+   "name": "makeStub",
+   "module": "app.app.spec",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "renderApp",
+   "module": "app.app.spec",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "App.onDiceConfirmed",
+   "module": "app.app",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "ClearSessionButtonComponent.onConfirm",
+   "module": "app.components.clear-session-button.clear-session-button.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "ClearSessionButtonComponent.onCancel",
+   "module": "app.components.clear-session-button.clear-session-button.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "DiceInputComponent.constructor",
+   "module": "app.components.dice-input.dice-input.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "DiceInputComponent.reset",
+   "module": "app.components.dice-input.dice-input.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "setup",
+   "module": "app.components.footer.footer.component.spec",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "GameCountPickerComponent.onCancel",
+   "module": "app.components.game-count-picker.game-count-picker.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "GameOverComponent.onNewGame",
+   "module": "app.components.game-over.game-over.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "LanguagePickerComponent.onLangChange",
+   "module": "app.components.language-picker.language-picker.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "renderComponent",
+   "module": "app.components.report-issue-button.report-issue-button.component.spec",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "ReportIssueButtonComponent.openDialog",
+   "module": "app.components.report-issue-button.report-issue-button.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "renderComponent",
+   "module": "app.components.report-issue-dialog.report-issue-dialog.component.spec",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "ReportIssueDialogComponent.onCancel",
+   "module": "app.components.report-issue-dialog.report-issue-dialog.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "ScoreSheetComponent.onCellClick",
+   "module": "app.components.score-sheet.score-sheet.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "ScoreSheetComponent.setActiveGame",
+   "module": "app.components.score-sheet.score-sheet.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "SuggestionBarComponent.constructor",
+   "module": "app.components.suggestion-bar.suggestion-bar.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "SuggestionBarComponent.onDismiss",
+   "module": "app.components.suggestion-bar.suggestion-bar.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "setup",
+   "module": "app.components.toast.toast.component.spec",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "UndoBannerComponent.onUndo",
+   "module": "app.components.undo-banner.undo-banner.component",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "emptyGame",
+   "module": "app.models.game-cells.spec",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "readCell",
+   "module": "app.models.game-cells",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "writeCell",
+   "module": "app.models.game-cells",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "emptyGame",
+   "module": "app.models.game.model.spec",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "makeGame",
+   "module": "app.services.game-state-anonymizer.service.spec",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "makeGameWithScores",
+   "module": "app.services.game-state-anonymizer.service.spec",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "ReportIssueService.submit",
+   "module": "app.services.report-issue.service",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "sumDice",
+   "module": "app.services.scoring-engine.service",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "ScoringEngineService.applyMultiplier",
+   "module": "app.services.scoring-engine.service",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "ScoringEngineService.computeMultipliedScore",
+   "module": "app.services.scoring-engine.service",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "createEmptyGame",
+   "module": "app.services.session.store",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "makeEmptyGame",
+   "module": "app.services.suggestion-engine.service.spec",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "makeGame",
+   "module": "app.services.undo.store.spec",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  },
+  {
+   "name": "getTranslocoTestingModule",
+   "module": "app.testing.transloco-testing",
+   "complexity": 1,
+   "coverage": 100,
+   "crap": 1
+  }
+ ]
+}

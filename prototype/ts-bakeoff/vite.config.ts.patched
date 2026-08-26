@@ -1,0 +1,27 @@
+/// <reference types="vitest" />
+
+import angular from '@analogjs/vite-plugin-angular';
+import { defineConfig } from 'vite';
+
+export default defineConfig(({ mode }) => ({
+  plugins: [angular()],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: ['dotenv/config', 'src/test-setup.ts'],
+    include: ['src/**/*.spec.ts'],
+    reporters: ['default'],
+    coverage: {
+      provider: (process.env.CRAP_PROVIDER ?? 'v8') as 'v8' | 'istanbul',
+      reporter: ['json', 'json-summary', 'text-summary'],
+      reportsDirectory: process.env.CRAP_OUT ?? 'coverage',
+      include: ['src/**/*.ts'],
+      exclude: ['src/**/*.spec.ts', 'src/test-setup.ts', 'src/main.ts', 'src/vite-env.d.ts'],
+      all: true,
+    },
+  },
+  define: {
+    'import.meta.vitest': mode !== 'production',
+  },
+  envPrefix: 'NG_APP_',
+}));
