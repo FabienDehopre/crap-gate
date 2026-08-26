@@ -1,0 +1,168 @@
+# CRAP distribution across the measurement subjects
+
+## Frontend lane - crap-typescript 0.5.0, v8 provider
+
+### triple-yahtzee-score-board
+scored methods: 77   N/A (coverage unresolved): 11
+  median 2.00   p75 2.50   p90 5.00   p95 6.00   max 41.00
+  fails: @6: 3 (3.9%)   @8: 2 (2.6%)   @15: 1 (1.3%)   @30: 1 (1.3%)   @45: 0 (0.0%)   @60: 0 (0.0%)
+  worst offenders:
+        41.00  cc=41   cov=100.0%  ScoringEngineService.computeScore  [src/app/services/scoring-engine.service.ts]
+         8.12  cc=8    cov= 87.5%  ScoringEngineService.computeColumnStats  [src/app/services/scoring-engine.service.ts]
+         7.48  cc=7    cov= 78.6%  placeScore  [src/app/services/session.store.ts]
+         6.00  cc=2    cov=  0.0%  TurnstileComponent.reset  [src/app/components/turnstile/turnstile.component.ts]
+         6.00  cc=6    cov=100.0%  isReportIssueError  [src/app/services/report-issue.service.ts]
+         6.00  cc=2    cov=  0.0%  ToastService.dismiss  [src/app/services/toast.service.ts]
+         5.93  cc=5    cov= 66.7%  parse  [src/app/services/session.store.ts]
+         5.39  cc=5    cov= 75.0%  allCellsFilled  [src/app/services/session.store.ts]
+
+### my-netatmo-24 (MyNetatmo24.Frontend)
+scored methods: 22   N/A (coverage unresolved): 484
+  median 2.00   p75 6.00   p90 12.00   p95 20.00   max 20.00
+  fails: @6: 5 (22.7%)   @8: 5 (22.7%)   @15: 2 (9.1%)   @30: 0 (0.0%)   @45: 0 (0.0%)   @60: 0 (0.0%)
+  worst offenders:
+        20.00  cc=4    cov=  0.0%  Theme.initTheme  [src/app/shell/services/theme.ts]
+        20.00  cc=4    cov=  0.0%  Theme.#loadFromLocalStorage  [src/app/shell/services/theme.ts]
+        12.00  cc=3    cov=  0.0%  AppTitleStrategy.updateTitle  [src/app/shell/services/app-title-strategy.ts]
+        12.00  cc=3    cov=  0.0%  Theme.#getOtherTheme  [src/app/shell/services/theme.ts]
+        12.00  cc=3    cov=  0.0%  Theme.#saveToLocalStorage  [src/app/shell/services/theme.ts]
+         6.00  cc=2    cov=  0.0%  Theme.setTheme  [src/app/shell/services/theme.ts]
+         6.00  cc=2    cov=  0.0%  Theme.#getSystemTheme  [src/app/shell/services/theme.ts]
+         6.00  cc=2    cov=  0.0%  Theme.#setThemeClass  [src/app/shell/services/theme.ts]
+
+### eslint-config (plain-TS control)
+scored methods: 44   N/A (coverage unresolved): 4
+  median 3.24   p75 12.56   p90 33.84   p95 72.00   max 506.00
+  fails: @6: 17 (38.6%)   @8: 13 (29.5%)   @15: 10 (22.7%)   @30: 7 (15.9%)   @45: 3 (6.8%)   @60: 3 (6.8%)
+  worst offenders:
+       506.00  cc=22   cov=  0.0%  defineWorkspaceConfig  [src/factories/workspace-config.ts]
+       306.00  cc=17   cov=  0.0%  defineProjectConfig  [src/factories/project-config.ts]
+        72.00  cc=8    cov=  0.0%  definePlaywrightConfig  [src/factories/playwright-config.ts]
+        41.71  cc=12   cov= 40.9%  namingConvention  [src/configs/rules-configs/naming-convention.ts]
+        33.84  cc=7    cov= 18.2%  ensurePackages  [src/shared/utils.ts]
+        32.98  cc=32   cov= 90.1%  defineConfig  [src/factories/standard-config.ts]
+        31.32  cc=19   cov= 67.6%  ngrx  [src/configs/ngrx.ts]
+        30.00  cc=5    cov=  0.0%  getPlaywrightDirectory  [src/shared/utils.ts]
+
+
+## Backend lane - recomputed from MTP Cobertura
+
+### FordConnectToAbrpSync - as ReportGenerator scores it (cc = raw complexity)
+scored methods: 58
+  median 2.00   p75 6.00   p90 12.00   p95 20.00   max 72.00
+  fails: @6: 12 (20.7%)   @8: 8 (13.8%)   @15: 4 (6.9%)   @30: 3 (5.2%)   @45: 2 (3.4%)   @60: 1 (1.7%)
+  worst offenders:
+        72.00  cc=8    cov=  0.0%  FordConnectToAbrpSync.Sync.SyncWorker.NextWait()  [FordConnectToAbrpSync]
+        56.00  cc=7    cov=  0.0%  FordConnectToAbrpSync.Sync.SyncWorker.<RunCycleAsync>d__14.MoveNext()  [FordConnectToAbrpSync]
+        40.00  cc=40   cov=100.0%  FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.Map(FordConnectToAbrpSync.Ford.FordTelemetryResponse, bool)  [FordConnectToAbrpSync]
+        20.00  cc=4    cov=  0.0%  FordConnectToAbrpSync.Sync.SyncWorker.<ExecuteAsync>d__10.MoveNext()  [FordConnectToAbrpSync]
+        14.00  cc=14   cov=100.0%  FordConnectToAbrpSync.Sync.WatchedSubsetComparer.HasMeaningfulChange(FordConnectToAbrpSync.Sync.WatchedSubset, FordConnectToAbrpSync.Sync.WatchedSubset, FordConnectToAbrpSync.Sync.ChangeTolerances)  [FordConnectToAbrpSync]
+        14.00  cc=14   cov=100.0%  FordConnectToAbrpSync.Ford.FordTokenService.<GetAccessTokenAsync>d__9.MoveNext()  [FordConnectToAbrpSync]
+        12.00  cc=12   cov=100.0%  FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.MapElevation(FordConnectToAbrpSync.Ford.FordMetrics)  [FordConnectToAbrpSync]
+        10.00  cc=10   cov=100.0%  FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.ComputePower(FordConnectToAbrpSync.Ford.FordMetrics, bool)  [FordConnectToAbrpSync]
+
+### FordConnectToAbrpSync - with true McCabe (cc = complexity/2 + 1)
+scored methods: 58
+  median 2.00   p75 4.00   p90 7.00   p95 12.00   max 30.00
+  fails: @6: 7 (12.1%)   @8: 4 (6.9%)   @15: 3 (5.2%)   @30: 0 (0.0%)   @45: 0 (0.0%)   @60: 0 (0.0%)
+  worst offenders:
+        30.00  cc=8    cov=  0.0%  FordConnectToAbrpSync.Sync.SyncWorker.NextWait()  [FordConnectToAbrpSync]
+        21.00  cc=40   cov=100.0%  FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.Map(FordConnectToAbrpSync.Ford.FordTelemetryResponse, bool)  [FordConnectToAbrpSync]
+        20.00  cc=7    cov=  0.0%  FordConnectToAbrpSync.Sync.SyncWorker.<RunCycleAsync>d__14.MoveNext()  [FordConnectToAbrpSync]
+        12.00  cc=4    cov=  0.0%  FordConnectToAbrpSync.Sync.SyncWorker.<ExecuteAsync>d__10.MoveNext()  [FordConnectToAbrpSync]
+         8.00  cc=14   cov=100.0%  FordConnectToAbrpSync.Sync.WatchedSubsetComparer.HasMeaningfulChange(FordConnectToAbrpSync.Sync.WatchedSubset, FordConnectToAbrpSync.Sync.WatchedSubset, FordConnectToAbrpSync.Sync.ChangeTolerances)  [FordConnectToAbrpSync]
+         8.00  cc=14   cov=100.0%  FordConnectToAbrpSync.Ford.FordTokenService.<GetAccessTokenAsync>d__9.MoveNext()  [FordConnectToAbrpSync]
+         7.00  cc=12   cov=100.0%  FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.MapElevation(FordConnectToAbrpSync.Ford.FordMetrics)  [FordConnectToAbrpSync]
+         6.00  cc=10   cov=100.0%  FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.ComputePower(FordConnectToAbrpSync.Ford.FordMetrics, bool)  [FordConnectToAbrpSync]
+
+### my-netatmo-24 (4 test projects merged) - as ReportGenerator scores it (cc = raw complexity)
+scored methods: 155
+  median 2.00   p75 4.00   p90 8.00   p95 13.58   max 72.00
+  fails: @6: 17 (11.0%)   @8: 12 (7.7%)   @15: 8 (5.2%)   @30: 3 (1.9%)   @45: 1 (0.6%)   @60: 1 (0.6%)
+  worst offenders:
+        72.00  cc=8    cov=  0.0%  MyNetatmo24.ApiService.Extensions.<>c.<AddOpenApi>b__4_2(System.Text.Json.Serialization.Metadata.JsonTypeInfo)  [MyNetatmo24.ApiService]
+        42.00  cc=6    cov=  0.0%  MyNetatmo24.ApiService.Extensions.GetScalarHeaderPolicyCollection(string)  [MyNetatmo24.ApiService]
+        42.00  cc=6    cov=  0.0%  MyNetatmo24.ApiService.Auth0SecuritySchemeDocumentTransformer.<TransformAsync>d__4.MoveNext()  [MyNetatmo24.ApiService]
+        20.00  cc=4    cov=  0.0%  MyNetatmo24.ApiService.Auth0SecurityRequirementOperationTransformer.TransformAsync(Microsoft.OpenApi.OpenApiOperation, Microsoft.AspNetCore.OpenApi.OpenApiOperationTransformerContext, System.Threading.CancellationToken)  [MyNetatmo24.ApiService]
+        20.00  cc=4    cov=  0.0%  MyNetatmo24.ApiService.ExceptionHandler.<TryHandleAsync>d__3.MoveNext()  [MyNetatmo24.ApiService]
+        20.00  cc=4    cov=  0.0%  MyNetatmo24.ApiService.Extensions.<>c.<AddOpenApi>b__4_0(Microsoft.AspNetCore.OpenApi.OpenApiOptions)  [MyNetatmo24.ApiService]
+        20.00  cc=4    cov=  0.0%  MyNetatmo24.Modules.AccountManagement.AccountManagementModule.<>c__DisplayClass0_0.<AddModule>b__3(System.IServiceProvider, System.Net.Http.HttpClient)  [MyNetatmo24.Modules.AccountManagement]
+        15.27  cc=10   cov= 62.5%  MyNetatmo24.SharedKernel.Infrastructure.SoftDeleteInterceptor.SavingChangesAsync(Microsoft.EntityFrameworkCore.Diagnostics.DbContextEventData, Microsoft.EntityFrameworkCore.Diagnostics.InterceptionResult<int>, System.Threading.CancellationToken)  [MyNetatmo24.SharedKernel]
+
+### my-netatmo-24 (4 test projects merged) - with true McCabe (cc = complexity/2 + 1)
+scored methods: 155
+  median 2.00   p75 3.00   p90 6.00   p95 7.54   max 30.00
+  fails: @6: 12 (7.7%)   @8: 7 (4.5%)   @15: 3 (1.9%)   @30: 0 (0.0%)   @45: 0 (0.0%)   @60: 0 (0.0%)
+  worst offenders:
+        30.00  cc=8    cov=  0.0%  MyNetatmo24.ApiService.Extensions.<>c.<AddOpenApi>b__4_2(System.Text.Json.Serialization.Metadata.JsonTypeInfo)  [MyNetatmo24.ApiService]
+        20.00  cc=6    cov=  0.0%  MyNetatmo24.ApiService.Extensions.GetScalarHeaderPolicyCollection(string)  [MyNetatmo24.ApiService]
+        20.00  cc=6    cov=  0.0%  MyNetatmo24.ApiService.Auth0SecuritySchemeDocumentTransformer.<TransformAsync>d__4.MoveNext()  [MyNetatmo24.ApiService]
+        12.00  cc=4    cov=  0.0%  MyNetatmo24.ApiService.Auth0SecurityRequirementOperationTransformer.TransformAsync(Microsoft.OpenApi.OpenApiOperation, Microsoft.AspNetCore.OpenApi.OpenApiOperationTransformerContext, System.Threading.CancellationToken)  [MyNetatmo24.ApiService]
+        12.00  cc=4    cov=  0.0%  MyNetatmo24.ApiService.ExceptionHandler.<TryHandleAsync>d__3.MoveNext()  [MyNetatmo24.ApiService]
+        12.00  cc=4    cov=  0.0%  MyNetatmo24.ApiService.Extensions.<>c.<AddOpenApi>b__4_0(Microsoft.AspNetCore.OpenApi.OpenApiOptions)  [MyNetatmo24.ApiService]
+        12.00  cc=4    cov=  0.0%  MyNetatmo24.Modules.AccountManagement.AccountManagementModule.<>c__DisplayClass0_0.<AddModule>b__3(System.IServiceProvider, System.Net.Http.HttpClient)  [MyNetatmo24.Modules.AccountManagement]
+         7.90  cc=10   cov= 62.5%  MyNetatmo24.SharedKernel.Infrastructure.SoftDeleteInterceptor.SavingChangesAsync(Microsoft.EntityFrameworkCore.Diagnostics.DbContextEventData, Microsoft.EntityFrameworkCore.Diagnostics.InterceptionResult<int>, System.Threading.CancellationToken)  [MyNetatmo24.SharedKernel]
+
+
+## Cross-cut: what a threshold would be failing
+
+A method at 100% coverage scores exactly its CC, so any threshold T fails every
+fully-tested method with CC > T. That sets a floor: below it, the gate punishes
+code that is complex but *properly tested* - the opposite of what CRAP is for.
+
+lane / repo                                           floor method setting it                               
+frontend / triple-yahtzee-score-board                    41 ScoringEngineService.computeScore               
+frontend / my-netatmo-24                                  1 Anonymous.constructor                           
+frontend / eslint-config                                  7 isInGitHooksOrLintStaged                        
+backend / FordConnectToAbrpSync (RG scale)               40 FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.M
+backend / FordConnectToAbrpSync (McCabe scale)           21 FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.M
+backend / my-netatmo-24 (4 test projects merged) (RG scale)     12 MyNetatmo24.ApiService.Extensions.GetApiHeaderPo
+backend / my-netatmo-24 (4 test projects merged) (McCabe scale)      7 MyNetatmo24.ApiService.Extensions.GetApiHeaderPo
+
+
+Failures split by coverage band, so the count is readable as a work item:
+
+  threshold 8
+    frontend / triple-yahtzee-score-board                2   (0 untested, 1 partly covered, 1 fully covered)
+    frontend / my-netatmo-24                             5   (5 untested, 0 partly covered, 0 fully covered)
+    frontend / eslint-config                            13   (4 untested, 9 partly covered, 0 fully covered)
+    backend / FordConnectToAbrpSync (RG scale)           8   (3 untested, 0 partly covered, 5 fully covered)
+    backend / FordConnectToAbrpSync (McCabe scale)       4   (3 untested, 0 partly covered, 1 fully covered)
+    backend / my-netatmo-24 (4 test projects merged) (RG scale)  12   (7 untested, 4 partly covered, 1 fully covered)
+    backend / my-netatmo-24 (4 test projects merged) (McCabe scale)   7   (7 untested, 0 partly covered, 0 fully covered)
+
+  threshold 15
+    frontend / triple-yahtzee-score-board                1   (0 untested, 0 partly covered, 1 fully covered)
+    frontend / my-netatmo-24                             2   (2 untested, 0 partly covered, 0 fully covered)
+    frontend / eslint-config                            10   (4 untested, 6 partly covered, 0 fully covered)
+    backend / FordConnectToAbrpSync (RG scale)           4   (3 untested, 0 partly covered, 1 fully covered)
+    backend / FordConnectToAbrpSync (McCabe scale)       3   (2 untested, 0 partly covered, 1 fully covered)
+    backend / my-netatmo-24 (4 test projects merged) (RG scale)   8   (7 untested, 1 partly covered, 0 fully covered)
+    backend / my-netatmo-24 (4 test projects merged) (McCabe scale)   3   (3 untested, 0 partly covered, 0 fully covered)
+
+  threshold 30
+    frontend / triple-yahtzee-score-board                1   (0 untested, 0 partly covered, 1 fully covered)
+    frontend / my-netatmo-24                           0
+    frontend / eslint-config                             7   (3 untested, 4 partly covered, 0 fully covered)
+    backend / FordConnectToAbrpSync (RG scale)           3   (2 untested, 0 partly covered, 1 fully covered)
+    backend / FordConnectToAbrpSync (McCabe scale)     0
+    backend / my-netatmo-24 (4 test projects merged) (RG scale)   3   (3 untested, 0 partly covered, 0 fully covered)
+    backend / my-netatmo-24 (4 test projects merged) (McCabe scale) 0
+
+  threshold 45
+    frontend / triple-yahtzee-score-board              0
+    frontend / my-netatmo-24                           0
+    frontend / eslint-config                             3   (3 untested, 0 partly covered, 0 fully covered)
+    backend / FordConnectToAbrpSync (RG scale)           2   (2 untested, 0 partly covered, 0 fully covered)
+    backend / FordConnectToAbrpSync (McCabe scale)     0
+    backend / my-netatmo-24 (4 test projects merged) (RG scale)   1   (1 untested, 0 partly covered, 0 fully covered)
+    backend / my-netatmo-24 (4 test projects merged) (McCabe scale) 0
+
+  threshold 60
+    frontend / triple-yahtzee-score-board              0
+    frontend / my-netatmo-24                           0
+    frontend / eslint-config                             3   (3 untested, 0 partly covered, 0 fully covered)
+    backend / FordConnectToAbrpSync (RG scale)           1   (1 untested, 0 partly covered, 0 fully covered)
+    backend / FordConnectToAbrpSync (McCabe scale)     0
+    backend / my-netatmo-24 (4 test projects merged) (RG scale)   1   (1 untested, 0 partly covered, 0 fully covered)
+    backend / my-netatmo-24 (4 test projects merged) (McCabe scale) 0

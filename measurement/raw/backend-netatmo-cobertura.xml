@@ -1,0 +1,3412 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage line-rate="0.7129506008010681" branch-rate="0.6518518518518519" complexity="305" version="1.9" timestamp="1784537194" lines-covered="534" lines-valid="749" branches-covered="176" branches-valid="270">
+  <packages>
+    <package line-rate="0.49554896142433236" branch-rate="0.47619047619047616" complexity="92" name="MyNetatmo24.ApiService">
+      <classes>
+        <class line-rate="0" branch-rate="1" complexity="1" name="MyNetatmo24.ApiService.Auth0SecuritySchemeDocumentTransformer" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Auth0SecuritySchemeDocumentTransformer.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name=".ctor" signature="(Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider, Microsoft.Extensions.Configuration.IConfiguration)">
+              <lines>
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name=".cctor" signature="()">
+              <lines>
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="0" complexity="4" name="MyNetatmo24.ApiService.Auth0SecurityRequirementOperationTransformer" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Auth0SecuritySchemeDocumentTransformer.cs">
+          <methods>
+            <method line-rate="0" branch-rate="0" complexity="4" name="TransformAsync" signature="(Microsoft.OpenApi.OpenApiOperation, Microsoft.AspNetCore.OpenApi.OpenApiOperationTransformerContext, System.Threading.CancellationToken)">
+              <lines>
+                <line number="84" hits="0" branch="False" />
+                <line number="85" hits="0" branch="False" />
+                <line number="86" hits="0" branch="False" />
+                <line number="87" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                    <condition number="1" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="89" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+                <line number="93" hits="0" branch="False" />
+                <line number="94" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="84" hits="0" branch="False" />
+            <line number="85" hits="0" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="87" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+                <condition number="1" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="89" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+            <line number="93" hits="0" branch="False" />
+            <line number="94" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.ApiService.ExceptionHandler" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/ExceptionHandler.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(Microsoft.AspNetCore.Http.IProblemDetailsService, Microsoft.Extensions.Hosting.IHostEnvironment)">
+              <lines>
+                <line number="6" hits="1" branch="False" />
+                <line number="8" hits="1" branch="False" />
+                <line number="9" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="1" branch="False" />
+            <line number="8" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.8602150537634409" branch-rate="0.8235294117647058" complexity="34" name="MyNetatmo24.ApiService.Extensions" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Extensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="4" name="AddAuthentication" signature="(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+              <lines>
+                <line number="24" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="35" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="36" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="4" name="AddOpenApi" signature="(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+              <lines>
+                <line number="49" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="50" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="84" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="85" hits="1" branch="False" />
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
+                <line number="94" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="2" name="AddErrorHandling" signature="(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+              <lines>
+                <line number="99" hits="1" branch="False" />
+                <line number="100" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="101" hits="1" branch="False" />
+                <line number="107" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="6" name="AddCaching" signature="(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+              <lines>
+                <line number="112" hits="1" branch="False" />
+                <line number="113" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="114" hits="1" branch="False" />
+                <line number="115" hits="1" branch="False" />
+                <line number="118" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="123" hits="1" branch="False" />
+                <line number="124" hits="1" branch="False" />
+                <line number="125" hits="1" branch="False" />
+                <line number="126" hits="1" branch="False" />
+                <line number="127" hits="1" branch="False" />
+                <line number="128" hits="1" branch="False" />
+                <line number="129" hits="1" branch="False" />
+                <line number="130" hits="1" branch="False" />
+                <line number="131" hits="1" branch="False" />
+                <line number="132" hits="1" branch="False" />
+                <line number="133" hits="1" branch="False" />
+                <line number="134" hits="1" branch="False" />
+                <line number="135" hits="1" branch="False" />
+                <line number="136" hits="1" branch="False" />
+                <line number="138" hits="1" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="139" hits="1" branch="False" />
+                <line number="140" hits="1" branch="False" />
+                <line number="141" hits="1" branch="False" />
+                <line number="144" hits="1" branch="False" />
+                <line number="148" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="AddWolverine" signature="(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+              <lines>
+                <line number="153" hits="1" branch="False" />
+                <line number="154" hits="1" branch="False" />
+                <line number="155" hits="1" branch="False" />
+                <line number="156" hits="1" branch="False" />
+                <line number="159" hits="1" branch="False" />
+                <line number="161" hits="1" branch="False" />
+                <line number="162" hits="1" branch="False" />
+                <line number="174" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="AddSecurity" signature="(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+              <lines>
+                <line number="179" hits="1" branch="False" />
+                <line number="180" hits="1" branch="False" />
+                <line number="181" hits="1" branch="False" />
+                <line number="182" hits="1" branch="False" />
+                <line number="183" hits="1" branch="False" />
+                <line number="187" hits="1" branch="False" />
+                <line number="190" hits="1" branch="False" />
+                <line number="191" hits="1" branch="False" />
+                <line number="193" hits="1" branch="False" />
+                <line number="195" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="12" name="GetApiHeaderPolicyCollection" signature="(bool)">
+              <lines>
+                <line number="201" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="203" hits="1" branch="False" />
+                <line number="206" hits="1" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="2" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="207" hits="1" branch="False" />
+                <line number="208" hits="1" branch="False" />
+                <line number="209" hits="1" branch="False" />
+                <line number="213" hits="1" branch="False" />
+                <line number="214" hits="1" branch="False" />
+                <line number="216" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="217" hits="1" branch="False" />
+                <line number="231" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="233" hits="1" branch="False" />
+                <line number="236" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="0" complexity="6" name="GetScalarHeaderPolicyCollection" signature="(string)">
+              <lines>
+                <line number="244" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="246" hits="0" branch="False" />
+                <line number="249" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                    <condition number="1" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="250" hits="0" branch="False" />
+                <line number="251" hits="0" branch="False" />
+                <line number="252" hits="0" branch="False" />
+                <line number="255" hits="0" branch="False" />
+                <line number="257" hits="0" branch="False" />
+                <line number="258" hits="0" branch="False" />
+                <line number="269" hits="0" branch="False" />
+                <line number="271" hits="0" branch="False" />
+                <line number="272" hits="0" branch="False" />
+                <line number="277" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="35" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="36" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="49" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="50" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="84" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="85" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
+            <line number="94" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="100" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="101" hits="1" branch="False" />
+            <line number="107" hits="1" branch="False" />
+            <line number="112" hits="1" branch="False" />
+            <line number="113" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="114" hits="1" branch="False" />
+            <line number="115" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="121" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="123" hits="1" branch="False" />
+            <line number="124" hits="1" branch="False" />
+            <line number="125" hits="1" branch="False" />
+            <line number="126" hits="1" branch="False" />
+            <line number="127" hits="1" branch="False" />
+            <line number="128" hits="1" branch="False" />
+            <line number="129" hits="1" branch="False" />
+            <line number="130" hits="1" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="132" hits="1" branch="False" />
+            <line number="133" hits="1" branch="False" />
+            <line number="134" hits="1" branch="False" />
+            <line number="135" hits="1" branch="False" />
+            <line number="136" hits="1" branch="False" />
+            <line number="138" hits="1" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="139" hits="1" branch="False" />
+            <line number="140" hits="1" branch="False" />
+            <line number="141" hits="1" branch="False" />
+            <line number="144" hits="1" branch="False" />
+            <line number="148" hits="1" branch="False" />
+            <line number="153" hits="1" branch="False" />
+            <line number="154" hits="1" branch="False" />
+            <line number="155" hits="1" branch="False" />
+            <line number="156" hits="1" branch="False" />
+            <line number="159" hits="1" branch="False" />
+            <line number="161" hits="1" branch="False" />
+            <line number="162" hits="1" branch="False" />
+            <line number="174" hits="1" branch="False" />
+            <line number="179" hits="1" branch="False" />
+            <line number="180" hits="1" branch="False" />
+            <line number="181" hits="1" branch="False" />
+            <line number="182" hits="1" branch="False" />
+            <line number="183" hits="1" branch="False" />
+            <line number="187" hits="1" branch="False" />
+            <line number="190" hits="1" branch="False" />
+            <line number="191" hits="1" branch="False" />
+            <line number="193" hits="1" branch="False" />
+            <line number="195" hits="1" branch="False" />
+            <line number="201" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="203" hits="1" branch="False" />
+            <line number="206" hits="1" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="2" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="207" hits="1" branch="False" />
+            <line number="208" hits="1" branch="False" />
+            <line number="209" hits="1" branch="False" />
+            <line number="213" hits="1" branch="False" />
+            <line number="214" hits="1" branch="False" />
+            <line number="216" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="217" hits="1" branch="False" />
+            <line number="231" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="233" hits="1" branch="False" />
+            <line number="236" hits="1" branch="False" />
+            <line number="244" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="246" hits="0" branch="False" />
+            <line number="249" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+                <condition number="1" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="250" hits="0" branch="False" />
+            <line number="251" hits="0" branch="False" />
+            <line number="252" hits="0" branch="False" />
+            <line number="255" hits="0" branch="False" />
+            <line number="257" hits="0" branch="False" />
+            <line number="258" hits="0" branch="False" />
+            <line number="269" hits="0" branch="False" />
+            <line number="271" hits="0" branch="False" />
+            <line number="272" hits="0" branch="False" />
+            <line number="277" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.5333333333333333" branch-rate="1" complexity="1" name="MyNetatmo24.ApiService.Endpoints.GetWeatherForecastEndpoint" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Endpoints/GetWeatherForecastEndpoint.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="Configure" signature="(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="HandleAsync" signature="(System.Threading.CancellationToken)">
+              <lines>
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.8888888888888888" branch-rate="0.75" complexity="4" name="Program.&lt;&lt;Main&gt;$&gt;d__0" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Program.cs">
+          <methods>
+            <method line-rate="0.8888888888888888" branch-rate="0.75" complexity="4" name="MoveNext" signature="()">
+              <lines>
+                <line number="5" hits="1" branch="False" />
+                <line number="7" hits="1" branch="False" />
+                <line number="8" hits="1" branch="False" />
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="34" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="False" />
+            <line number="7" hits="1" branch="False" />
+            <line number="8" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="34" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="1" name="Program.&lt;&gt;c" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Program.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;&lt;Main&gt;$&gt;b__0_1" signature="(Microsoft.AspNetCore.Diagnostics.ExceptionHandlerSuppressDiagnosticsContext)">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="0" complexity="4" name="Program.&lt;&gt;c__DisplayClass0_0" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Program.cs">
+          <methods>
+            <method line-rate="0" branch-rate="0" complexity="2" name="&lt;&lt;Main&gt;$&gt;b__0" signature="(Scalar.AspNetCore.ScalarOptions)">
+              <lines>
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="42" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="0" complexity="2" name="&lt;&lt;Main&gt;$&gt;b__2" signature="(Scalar.AspNetCore.AuthorizationCodeFlow)">
+              <lines>
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="51" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="1" name="MyNetatmo24.ApiService.Auth0SecuritySchemeDocumentTransformer.&lt;&gt;c" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Auth0SecuritySchemeDocumentTransformer.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;TransformAsync&gt;b__4_0" signature="(Microsoft.AspNetCore.Authentication.AuthenticationScheme)">
+              <lines>
+                <line number="47" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="47" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="0" complexity="6" name="MyNetatmo24.ApiService.Auth0SecuritySchemeDocumentTransformer.&lt;TransformAsync&gt;d__4" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Auth0SecuritySchemeDocumentTransformer.cs">
+          <methods>
+            <method line-rate="0" branch-rate="0" complexity="6" name="MoveNext" signature="()">
+              <lines>
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                    <condition number="1" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+                <condition number="1" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="0" complexity="4" name="MyNetatmo24.ApiService.ExceptionHandler.&lt;TryHandleAsync&gt;d__3" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/ExceptionHandler.cs">
+          <methods>
+            <method line-rate="0" branch-rate="0" complexity="4" name="MoveNext" signature="()">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="17" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="25" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="17" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="25" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.47297297297297297" branch-rate="0.25" complexity="16" name="MyNetatmo24.ApiService.Extensions.&lt;&gt;c" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Extensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;AddAuthentication&gt;b__3_0" signature="(Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions)">
+              <lines>
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="2" name="&lt;AddAuthentication&gt;b__3_1" signature="(Microsoft.AspNetCore.Authorization.AuthorizationOptions)">
+              <lines>
+                <line number="37" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;AddAuthentication&gt;b__3_2" signature="(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder)">
+              <lines>
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="0" complexity="4" name="&lt;AddOpenApi&gt;b__4_0" signature="(Microsoft.AspNetCore.OpenApi.OpenApiOptions)">
+              <lines>
+                <line number="51" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="52" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="62" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="63" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="0" complexity="8" name="&lt;AddOpenApi&gt;b__4_2" signature="(System.Text.Json.Serialization.Metadata.JsonTypeInfo)">
+              <lines>
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="True" condition-coverage="0% (0/8)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                    <condition number="1" type="jump" coverage="0%" />
+                    <condition number="2" type="jump" coverage="0%" />
+                    <condition number="3" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="56" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;AddOpenApi&gt;b__4_3" signature="(Microsoft.OpenApi.OpenApiDocument, Microsoft.AspNetCore.OpenApi.OpenApiDocumentTransformerContext, System.Threading.CancellationToken)">
+              <lines>
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;AddOpenApi&gt;b__4_1" signature="(MartinCostello.OpenApi.OpenApiExtensionsOptions)">
+              <lines>
+                <line number="86" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+                <line number="91" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="2" name="&lt;AddErrorHandling&gt;b__5_0" signature="(Microsoft.AspNetCore.Http.ProblemDetailsOptions)">
+              <lines>
+                <line number="102" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="103" hits="1" branch="False" />
+                <line number="106" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;AddErrorHandling&gt;b__5_1" signature="(Microsoft.AspNetCore.Http.ProblemDetailsContext)">
+              <lines>
+                <line number="104" hits="1" branch="False" />
+                <line number="105" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;AddCaching&gt;b__6_0" signature="(ZiggyCreatures.Caching.Fusion.FusionCacheOptions)">
+              <lines>
+                <line number="116" hits="0" branch="False" />
+                <line number="117" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;AddCaching&gt;b__6_2" signature="(OpenTelemetry.Trace.TracerProviderBuilder)">
+              <lines>
+                <line number="145" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;AddCaching&gt;b__6_3" signature="(OpenTelemetry.Metrics.MeterProviderBuilder)">
+              <lines>
+                <line number="146" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;AddWolverine&gt;b__7_1" signature="(string)">
+              <lines>
+                <line number="158" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;GetApiHeaderPolicyCollection&gt;b__9_0" signature="(Microsoft.AspNetCore.Builder.CrossOriginOpenerPolicyBuilder)">
+              <lines>
+                <line number="210" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;GetApiHeaderPolicyCollection&gt;b__9_1" signature="(Microsoft.AspNetCore.Builder.CrossOriginEmbedderPolicyBuilder)">
+              <lines>
+                <line number="211" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;GetApiHeaderPolicyCollection&gt;b__9_2" signature="(Microsoft.AspNetCore.Builder.CrossOriginResourcePolicyBuilder)">
+              <lines>
+                <line number="212" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;GetApiHeaderPolicyCollection&gt;b__9_3" signature="(Microsoft.AspNetCore.Builder.CspBuilder)">
+              <lines>
+                <line number="218" hits="1" branch="False" />
+                <line number="219" hits="1" branch="False" />
+                <line number="220" hits="1" branch="False" />
+                <line number="221" hits="1" branch="False" />
+                <line number="222" hits="1" branch="False" />
+                <line number="223" hits="1" branch="False" />
+                <line number="224" hits="1" branch="False" />
+                <line number="225" hits="1" branch="False" />
+                <line number="226" hits="1" branch="False" />
+                <line number="227" hits="1" branch="False" />
+                <line number="228" hits="1" branch="False" />
+                <line number="229" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;GetScalarHeaderPolicyCollection&gt;b__10_0" signature="(Microsoft.AspNetCore.Builder.CrossOriginOpenerPolicyBuilder)">
+              <lines>
+                <line number="253" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;GetScalarHeaderPolicyCollection&gt;b__10_1" signature="(Microsoft.AspNetCore.Builder.CrossOriginResourcePolicyBuilder)">
+              <lines>
+                <line number="254" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="37" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="51" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="True" condition-coverage="0% (0/8)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+                <condition number="1" type="jump" coverage="0%" />
+                <condition number="2" type="jump" coverage="0%" />
+                <condition number="3" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="62" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+            <line number="102" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="103" hits="1" branch="False" />
+            <line number="104" hits="1" branch="False" />
+            <line number="105" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="116" hits="0" branch="False" />
+            <line number="117" hits="0" branch="False" />
+            <line number="145" hits="1" branch="False" />
+            <line number="146" hits="1" branch="False" />
+            <line number="158" hits="1" branch="False" />
+            <line number="210" hits="1" branch="False" />
+            <line number="211" hits="1" branch="False" />
+            <line number="212" hits="1" branch="False" />
+            <line number="218" hits="1" branch="False" />
+            <line number="219" hits="1" branch="False" />
+            <line number="220" hits="1" branch="False" />
+            <line number="221" hits="1" branch="False" />
+            <line number="222" hits="1" branch="False" />
+            <line number="223" hits="1" branch="False" />
+            <line number="224" hits="1" branch="False" />
+            <line number="225" hits="1" branch="False" />
+            <line number="226" hits="1" branch="False" />
+            <line number="227" hits="1" branch="False" />
+            <line number="228" hits="1" branch="False" />
+            <line number="229" hits="1" branch="False" />
+            <line number="253" hits="0" branch="False" />
+            <line number="254" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="0" complexity="2" name="MyNetatmo24.ApiService.Extensions.&lt;&gt;c__DisplayClass10_0" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Extensions.cs">
+          <methods>
+            <method line-rate="0" branch-rate="0" complexity="2" name="&lt;GetScalarHeaderPolicyCollection&gt;b__2" signature="(Microsoft.AspNetCore.Builder.CspBuilder)">
+              <lines>
+                <line number="259" hits="0" branch="False" />
+                <line number="260" hits="0" branch="False" />
+                <line number="261" hits="0" branch="False" />
+                <line number="262" hits="0" branch="False" />
+                <line number="263" hits="0" branch="False" />
+                <line number="264" hits="0" branch="False" />
+                <line number="265" hits="0" branch="False" />
+                <line number="266" hits="0" branch="False" />
+                <line number="267" hits="0" branch="False" />
+                <line number="268" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="270" hits="0" branch="False" />
+                <line number="273" hits="0" branch="False" />
+                <line number="274" hits="0" branch="False" />
+                <line number="275" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="259" hits="0" branch="False" />
+            <line number="260" hits="0" branch="False" />
+            <line number="261" hits="0" branch="False" />
+            <line number="262" hits="0" branch="False" />
+            <line number="263" hits="0" branch="False" />
+            <line number="264" hits="0" branch="False" />
+            <line number="265" hits="0" branch="False" />
+            <line number="266" hits="0" branch="False" />
+            <line number="267" hits="0" branch="False" />
+            <line number="268" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="270" hits="0" branch="False" />
+            <line number="273" hits="0" branch="False" />
+            <line number="274" hits="0" branch="False" />
+            <line number="275" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.ApiService.Extensions.&lt;&gt;c__DisplayClass6_0" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Extensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;AddCaching&gt;b__1" signature="(ZiggyCreatures.Caching.Fusion.Backplane.StackExchangeRedis.RedisBackplaneOptions)">
+              <lines>
+                <line number="142" hits="1" branch="False" />
+                <line number="143" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="142" hits="1" branch="False" />
+            <line number="143" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.9166666666666666" branch-rate="0.6666666666666666" complexity="6" name="MyNetatmo24.ApiService.Extensions.&lt;&gt;c__DisplayClass7_0" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Extensions.cs">
+          <methods>
+            <method line-rate="0.9166666666666666" branch-rate="0.6666666666666666" complexity="6" name="&lt;AddWolverine&gt;b__0" signature="(Wolverine.WolverineOptions)">
+              <lines>
+                <line number="157" hits="1" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="160" hits="0" branch="False" />
+                <line number="163" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="164" hits="1" branch="False" />
+                <line number="165" hits="1" branch="False" />
+                <line number="166" hits="1" branch="False" />
+                <line number="167" hits="1" branch="False" />
+                <line number="168" hits="1" branch="False" />
+                <line number="169" hits="1" branch="False" />
+                <line number="170" hits="1" branch="False" />
+                <line number="171" hits="1" branch="False" />
+                <line number="172" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="157" hits="1" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="160" hits="0" branch="False" />
+            <line number="163" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="164" hits="1" branch="False" />
+            <line number="165" hits="1" branch="False" />
+            <line number="166" hits="1" branch="False" />
+            <line number="167" hits="1" branch="False" />
+            <line number="168" hits="1" branch="False" />
+            <line number="169" hits="1" branch="False" />
+            <line number="170" hits="1" branch="False" />
+            <line number="171" hits="1" branch="False" />
+            <line number="172" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.6666666666666666" branch-rate="0.25" complexity="4" name="MyNetatmo24.ApiService.Extensions.&lt;&gt;c__DisplayClass8_0" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Extensions.cs">
+          <methods>
+            <method line-rate="0.6666666666666666" branch-rate="0.25" complexity="4" name="&lt;AddSecurity&gt;b__0" signature="(NetEscapades.AspNetCore.SecurityHeaders.Infrastructure.PolicySelectorContext)">
+              <lines>
+                <line number="184" hits="1" branch="True" condition-coverage="25% (1/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                    <condition number="1" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="185" hits="1" branch="False" />
+                <line number="186" hits="1" branch="False" />
+                <line number="188" hits="0" branch="False" />
+                <line number="189" hits="0" branch="False" />
+                <line number="192" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="184" hits="1" branch="True" condition-coverage="25% (1/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+                <condition number="1" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="185" hits="1" branch="False" />
+            <line number="186" hits="1" branch="False" />
+            <line number="188" hits="0" branch="False" />
+            <line number="189" hits="0" branch="False" />
+            <line number="192" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="1" name="MyNetatmo24.ApiService.Endpoints.GetWeatherForecastEndpoint.WeatherForecast" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Endpoints/GetWeatherForecastEndpoint.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name=".ctor" signature="(System.DateOnly, int, string)">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_TemperatureF" signature="()">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="1" name="MyNetatmo24.ApiService.Endpoints.GetWeatherForecastEndpoint.&lt;&gt;c__DisplayClass2_0" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ApiService/Endpoints/GetWeatherForecastEndpoint.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;HandleAsync&gt;b__0" signature="(int)">
+              <lines>
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package line-rate="0.8966942148760331" branch-rate="0.6509433962264151" complexity="123" name="MyNetatmo24.Modules.AccountManagement">
+      <classes>
+        <class line-rate="1" branch-rate="1" complexity="4" name="MyNetatmo24.Modules.AccountManagement.AccountManagementModule" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/AccountManagementModule.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="4" name="AddModule" signature="(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+              <lines>
+                <line number="27" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="31" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="32" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="UseModule" signature="(Microsoft.AspNetCore.Builder.WebApplication)">
+              <lines>
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="31" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="32" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.8888888888888888" branch-rate="0.5625" complexity="16" name="MyNetatmo24.Modules.AccountManagement.Errors" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Errors.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="UserDeleted" signature="(System.DateTimeOffset)">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="0.8333333333333334" complexity="6" name="IsUserExistsError" signature="(FluentResults.IReason)">
+              <lines>
+                <line number="20" hits="1" branch="True" condition-coverage="83.33% (5/6)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="2" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="0.5" complexity="6" name="GetDeletedAt" signature="(FluentResults.IReason)">
+              <lines>
+                <line number="21" hits="1" branch="True" condition-coverage="50% (3/6)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                    <condition number="1" type="jump" coverage="50%" />
+                    <condition number="2" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="0.5" complexity="2" name="IsUserInfoNotFound" signature="(FluentResults.IReason)">
+              <lines>
+                <line number="22" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="0" complexity="2" name="IsUserNotAuthenticated" signature="(FluentResults.IReason)">
+              <lines>
+                <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".cctor" signature="()">
+              <lines>
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="20" hits="1" branch="True" condition-coverage="83.33% (5/6)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="2" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="21" hits="1" branch="True" condition-coverage="50% (3/6)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+                <condition number="1" type="jump" coverage="50%" />
+                <condition number="2" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="22" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.HttpClients.Auth0.UserInfoDto" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/HttpClients/Auth0/UserInfoDto.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(string, System.Uri, string, string)">
+              <lines>
+                <line number="5" hits="1" branch="False" />
+                <line number="6" hits="1" branch="False" />
+                <line number="7" hits="1" branch="False" />
+                <line number="8" hits="1" branch="False" />
+                <line number="9" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="False" />
+            <line number="6" hits="1" branch="False" />
+            <line number="7" hits="1" branch="False" />
+            <line number="8" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.HttpClients.Auth0.UserInfoService" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/HttpClients/Auth0/UserInfoService.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name=".ctor" signature="(System.Net.Http.HttpClient, Microsoft.Extensions.Logging.ILogger&lt;MyNetatmo24.Modules.AccountManagement.HttpClients.Auth0.UserInfoService&gt;)">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.6666666666666666" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Domain.Account" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Domain/Account.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="Create" signature="(MyNetatmo24.SharedKernel.StronglyTypedIds.AccountId, string, string, MyNetatmo24.Modules.AccountManagement.Domain.FullName)">
+              <lines>
+                <line number="23" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="SetAvatarUrl" signature="(System.Uri)">
+              <lines>
+                <line number="25" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="SetNetatmoAuthInfo" signature="(MyNetatmo24.SharedKernel.Domain.NetatmoAuthInfo)">
+              <lines>
+                <line number="27" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="27" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.75" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Domain.FullName" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Domain/FullName.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="From" signature="(string, string)">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="ToString" signature="()">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="15" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Data.AccountCache" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Data/AccountCache.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".cctor" signature="()">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Data.AccountDbContext" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Data/AccountDbContext.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions&lt;MyNetatmo24.Modules.AccountManagement.Data.AccountDbContext&gt;, System.TimeProvider)">
+              <lines>
+                <line number="7" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="get_Schema" signature="()">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="OnModelCreating" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)">
+              <lines>
+                <line number="13" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="4" name="MyNetatmo24.Modules.AccountManagement.Data.AccountEntityConfig" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Data/AccountEntityConfig.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="4" name="Configure" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder&lt;MyNetatmo24.Modules.AccountManagement.Domain.Account&gt;)">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="18" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="1" branch="False" />
+                <line number="24" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="25" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="18" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="19" hits="1" branch="False" />
+            <line number="24" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="25" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="0.6" complexity="10" name="MyNetatmo24.Modules.AccountManagement.Application.EnsureAccount" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/EnsureAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="Configure" signature="(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)">
+              <lines>
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="0.5" complexity="8" name="GetAuth0Id" signature="(System.Security.Claims.ClaimsPrincipal)">
+              <lines>
+                <line number="79" hits="1" branch="True" condition-coverage="50% (4/8)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                    <condition number="1" type="jump" coverage="50%" />
+                    <condition number="2" type="jump" coverage="50%" />
+                    <condition number="3" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="80" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="2" name="CreateAccount" signature="(string, MyNetatmo24.Modules.AccountManagement.HttpClients.Auth0.UserInfoDto)">
+              <lines>
+                <line number="101" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="104" hits="1" branch="False" />
+                <line number="105" hits="1" branch="False" />
+                <line number="107" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="109" hits="1" branch="False" />
+                <line number="112" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="79" hits="1" branch="True" condition-coverage="50% (4/8)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+                <condition number="1" type="jump" coverage="50%" />
+                <condition number="2" type="jump" coverage="50%" />
+                <condition number="3" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="80" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="104" hits="1" branch="False" />
+            <line number="105" hits="1" branch="False" />
+            <line number="107" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="109" hits="1" branch="False" />
+            <line number="112" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="0.5" complexity="8" name="MyNetatmo24.Modules.AccountManagement.Application.MyAccount" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/MyAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="Configure" signature="(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)">
+              <lines>
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="0.5" complexity="8" name="GetAuth0Id" signature="(System.Security.Claims.ClaimsPrincipal)">
+              <lines>
+                <line number="80" hits="1" branch="True" condition-coverage="50% (4/8)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                    <condition number="1" type="jump" coverage="50%" />
+                    <condition number="2" type="jump" coverage="50%" />
+                    <condition number="3" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="81" hits="1" branch="False" />
+                <line number="82" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="80" hits="1" branch="True" condition-coverage="50% (4/8)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+                <condition number="1" type="jump" coverage="50%" />
+                <condition number="2" type="jump" coverage="50%" />
+                <condition number="3" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="81" hits="1" branch="False" />
+            <line number="82" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="0.5" complexity="8" name="MyNetatmo24.Modules.AccountManagement.Application.RestoreAccount" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/RestoreAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="Configure" signature="(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)">
+              <lines>
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="0.5" complexity="8" name="GetAuth0Id" signature="(System.Security.Claims.ClaimsPrincipal)">
+              <lines>
+                <line number="56" hits="1" branch="True" condition-coverage="50% (4/8)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                    <condition number="1" type="jump" coverage="50%" />
+                    <condition number="2" type="jump" coverage="50%" />
+                    <condition number="3" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="56" hits="1" branch="True" condition-coverage="50% (4/8)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+                <condition number="1" type="jump" coverage="50%" />
+                <condition number="2" type="jump" coverage="50%" />
+                <condition number="3" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.AccountManagementModule.&lt;&gt;c" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/AccountManagementModule.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;AddModule&gt;b__0_1" signature="(Aspire.Npgsql.EntityFrameworkCore.PostgreSQL.NpgsqlEntityFrameworkCorePostgreSQLSettings)">
+              <lines>
+                <line number="31" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;AddModule&gt;b__0_2" signature="(System.IServiceProvider)">
+              <lines>
+                <line number="32" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.125" branch-rate="0" complexity="4" name="MyNetatmo24.Modules.AccountManagement.AccountManagementModule.&lt;&gt;c__DisplayClass0_0" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/AccountManagementModule.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;AddModule&gt;b__0" signature="(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+              <lines>
+                <line number="30" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="0" complexity="4" name="&lt;AddModule&gt;b__3" signature="(System.IServiceProvider, System.Net.Http.HttpClient)">
+              <lines>
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="45" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="50" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="1" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="45" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="50" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="0" complexity="2" name="MyNetatmo24.Modules.AccountManagement.HttpClients.Auth0.UserInfoService.&lt;GetUserInfoAsync&gt;d__3" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/HttpClients/Auth0/UserInfoService.cs">
+          <methods>
+            <method line-rate="0" branch-rate="0" complexity="2" name="MoveNext" signature="()">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Data.AccountCache.&lt;GetOrCreateAccountAsync&gt;d__1" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Data/AccountCache.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="MoveNext" signature="()">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Data.AccountEntityConfig.&lt;&gt;c" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Data/AccountEntityConfig.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;Configure&gt;b__0_5" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.ComplexPropertyBuilder&lt;MyNetatmo24.Modules.AccountManagement.Domain.FullName&gt;)">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;Configure&gt;b__0_7" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.ComplexPropertyBuilder&lt;MyNetatmo24.SharedKernel.Domain.NetatmoAuthInfo&gt;)">
+              <lines>
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Application.EnsureAccount.UserDeletedDto" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/EnsureAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(System.DateTimeOffset)">
+              <lines>
+                <line number="28" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="28" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="4" name="MyNetatmo24.Modules.AccountManagement.Application.EnsureAccount.&lt;&gt;c" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/EnsureAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;HandleAsync&gt;b__2_2" signature="(MyNetatmo24.Modules.AccountManagement.HttpClients.Auth0.UserInfoDto, string)">
+              <lines>
+                <line number="60" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="4" name="&lt;HandleAsync&gt;b__2_4" signature="(FluentResults.Result)">
+              <lines>
+                <line number="62" hits="1" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;HandleAsync&gt;b__2_5" signature="(FluentResults.IReason)">
+              <lines>
+                <line number="62" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="60" hits="1" branch="False" />
+            <line number="62" hits="1" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Application.EnsureAccount.&lt;&gt;c__DisplayClass2_0" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/EnsureAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;HandleAsync&gt;b__0" signature="(string)">
+              <lines>
+                <line number="58" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;HandleAsync&gt;b__1" signature="()">
+              <lines>
+                <line number="59" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;HandleAsync&gt;b__3" signature="(MyNetatmo24.Modules.AccountManagement.Domain.Account)">
+              <lines>
+                <line number="61" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="4" name="MyNetatmo24.Modules.AccountManagement.Application.EnsureAccount.&lt;GetExistingAccount&gt;d__4" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/EnsureAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="4" name="MoveNext" signature="()">
+              <lines>
+                <line number="85" hits="1" branch="False" />
+                <line number="86" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="88" hits="1" branch="False" />
+                <line number="91" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="93" hits="1" branch="False" />
+                <line number="96" hits="1" branch="False" />
+                <line number="97" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="85" hits="1" branch="False" />
+            <line number="86" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="88" hits="1" branch="False" />
+            <line number="91" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="93" hits="1" branch="False" />
+            <line number="96" hits="1" branch="False" />
+            <line number="97" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.875" branch-rate="0.7" complexity="10" name="MyNetatmo24.Modules.AccountManagement.Application.EnsureAccount.&lt;HandleAsync&gt;d__2" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/EnsureAccount.cs">
+          <methods>
+            <method line-rate="0.875" branch-rate="0.7" complexity="10" name="MoveNext" signature="()">
+              <lines>
+                <line number="56" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="57" hits="1" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="63" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+                <line number="71" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="72" hits="1" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="56" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="57" hits="1" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="63" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+            <line number="71" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="72" hits="1" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Application.EnsureAccount.&lt;SaveAccountAndPublishEvent&gt;d__6" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/EnsureAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="MoveNext" signature="()">
+              <lines>
+                <line number="117" hits="1" branch="False" />
+                <line number="118" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="117" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="121" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Application.MyAccount.UserInfoDto" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/MyAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(string, string, string, System.Uri)">
+              <lines>
+                <line number="33" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="33" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Application.MyAccount.&lt;&gt;c" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/MyAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;HandleAsync&gt;b__2_1" signature="(MyNetatmo24.Modules.AccountManagement.Domain.Account)">
+              <lines>
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="2" name="MyNetatmo24.Modules.AccountManagement.Application.MyAccount.&lt;GetExistingAccount&gt;d__4" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/MyAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="2" name="MoveNext" signature="()">
+              <lines>
+                <line number="86" hits="1" branch="False" />
+                <line number="87" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="86" hits="1" branch="False" />
+            <line number="87" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.9230769230769231" branch-rate="0.8333333333333334" complexity="12" name="MyNetatmo24.Modules.AccountManagement.Application.MyAccount.&lt;HandleAsync&gt;d__2" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/MyAccount.cs">
+          <methods>
+            <method line-rate="0.9230769230769231" branch-rate="0.8333333333333334" complexity="12" name="MoveNext" signature="()">
+              <lines>
+                <line number="56" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="57" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="59" hits="0" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="72" hits="1" branch="True" condition-coverage="100% (8/8)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="2" type="jump" coverage="100%" />
+                    <condition number="3" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="56" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="57" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="59" hits="0" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="True" condition-coverage="100% (8/8)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="2" type="jump" coverage="100%" />
+                <condition number="3" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.5" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Application.RestoreAccount.&lt;&gt;c" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/RestoreAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;HandleAsync&gt;b__1_2" signature="(FluentResults.IReason)">
+              <lines>
+                <line number="49" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;HandleAsync&gt;b__1_3" signature="(FluentResults.IReason)">
+              <lines>
+                <line number="50" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Application.RestoreAccount.&lt;&gt;c__DisplayClass1_0" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/RestoreAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;HandleAsync&gt;b__0" signature="(string)">
+              <lines>
+                <line number="44" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;HandleAsync&gt;b__1" signature="(MyNetatmo24.Modules.AccountManagement.Domain.Account)">
+              <lines>
+                <line number="45" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="2" name="MyNetatmo24.Modules.AccountManagement.Application.RestoreAccount.&lt;GetExistingAccount&gt;d__3" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/RestoreAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="2" name="MoveNext" signature="()">
+              <lines>
+                <line number="62" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="62" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.7777777777777778" branch-rate="0.4166666666666667" complexity="12" name="MyNetatmo24.Modules.AccountManagement.Application.RestoreAccount.&lt;HandleAsync&gt;d__1" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/RestoreAccount.cs">
+          <methods>
+            <method line-rate="0.7777777777777778" branch-rate="0.4166666666666667" complexity="12" name="MoveNext" signature="()">
+              <lines>
+                <line number="43" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="46" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="50" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                    <condition number="1" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="43" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="46" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="50" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+                <condition number="1" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.Modules.AccountManagement.Application.RestoreAccount.&lt;RestoreAccountAndPublishEvent&gt;d__4" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/RestoreAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="MoveNext" signature="()">
+              <lines>
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="2" name="MyNetatmo24.Modules.AccountManagement.Data.AccountCache.&lt;&gt;c__DisplayClass1_0.&lt;&lt;GetOrCreateAccountAsync&gt;b__0&gt;d" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Data/AccountCache.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="2" name="MoveNext" signature="()">
+              <lines>
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="29" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="29" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="2" name="MyNetatmo24.Modules.AccountManagement.Application.MyAccount.&lt;&gt;c__DisplayClass2_0.&lt;&lt;HandleAsync&gt;b__0&gt;d" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.Modules.AccountManagement/Application/MyAccount.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="2" name="MoveNext" signature="()">
+              <lines>
+                <line number="65" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="65" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package line-rate="0.9090909090909091" branch-rate="0.75" complexity="23" name="MyNetatmo24.ServiceDefaults">
+      <classes>
+        <class line-rate="0.9" branch-rate="0.7142857142857143" complexity="14" name="MyNetatmo24.ServiceDefaults.Extensions" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ServiceDefaults/Extensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="2" name="AddServiceDefaults" signature="&lt;TBuilder&gt;(TBuilder)">
+              <lines>
+                <line number="23" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="29" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="4" name="ConfigureOpenTelemetry" signature="&lt;TBuilder&gt;(TBuilder)">
+              <lines>
+                <line number="50" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="51" hits="1" branch="False" />
+                <line number="56" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0.75" branch-rate="0.5" complexity="2" name="AddOpenTelemetryExporters" signature="&lt;TBuilder&gt;(TBuilder)">
+              <lines>
+                <line number="87" hits="1" branch="False" />
+                <line number="89" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="91" hits="0" branch="False" />
+                <line number="101" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="2" name="AddDefaultHealthChecks" signature="&lt;TBuilder&gt;(TBuilder)">
+              <lines>
+                <line number="107" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="108" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0.6" branch-rate="0.25" complexity="4" name="MapDefaultEndpoints" signature="(Microsoft.AspNetCore.Builder.WebApplication)">
+              <lines>
+                <line number="116" hits="1" branch="False" />
+                <line number="120" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="123" hits="0" branch="False" />
+                <line number="126" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="130" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="29" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="50" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="51" hits="1" branch="False" />
+            <line number="56" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="87" hits="1" branch="False" />
+            <line number="89" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="91" hits="0" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="107" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="108" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="116" hits="1" branch="False" />
+            <line number="120" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="123" hits="0" branch="False" />
+            <line number="126" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="130" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="1" name="MyNetatmo24.ServiceDefaults.Extensions.&lt;&gt;c" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ServiceDefaults/Extensions.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;MapDefaultEndpoints&gt;b__6_0" signature="(Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration)">
+              <lines>
+                <line number="127" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="127" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.ServiceDefaults.Extensions.&lt;&gt;c__2&lt;TBuilder&gt;" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ServiceDefaults/Extensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;AddServiceDefaults&gt;b__2_0" signature="(Microsoft.Extensions.DependencyInjection.IHttpClientBuilder)">
+              <lines>
+                <line number="32" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="32" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="0.75" complexity="4" name="MyNetatmo24.ServiceDefaults.Extensions.&lt;&gt;c__3&lt;TBuilder&gt;" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ServiceDefaults/Extensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;ConfigureOpenTelemetry&gt;b__3_0" signature="(OpenTelemetry.Logs.OpenTelemetryLoggerOptions)">
+              <lines>
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;ConfigureOpenTelemetry&gt;b__3_1" signature="(OpenTelemetry.Metrics.MeterProviderBuilder)">
+              <lines>
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="2" name="&lt;ConfigureOpenTelemetry&gt;b__3_3" signature="(OpenTelemetry.Instrumentation.AspNetCore.AspNetCoreTraceInstrumentationOptions)">
+              <lines>
+                <line number="68" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="0.5" complexity="2" name="&lt;ConfigureOpenTelemetry&gt;b__3_4" signature="(Microsoft.AspNetCore.Http.HttpContext)">
+              <lines>
+                <line number="69" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="70" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="68" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="69" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="70" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="1" name="MyNetatmo24.ServiceDefaults.Extensions.&lt;&gt;c__5&lt;TBuilder&gt;" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ServiceDefaults/Extensions.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;AddDefaultHealthChecks&gt;b__5_0" signature="()">
+              <lines>
+                <line number="109" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="109" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="2" name="MyNetatmo24.ServiceDefaults.Extensions.&lt;&gt;c__DisplayClass3_0&lt;TBuilder&gt;" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.ServiceDefaults/Extensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="2" name="&lt;ConfigureOpenTelemetry&gt;b__2" signature="(OpenTelemetry.Trace.TracerProviderBuilder)">
+              <lines>
+                <line number="65" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="65" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package line-rate="0.8695652173913043" branch-rate="0.8666666666666667" complexity="67" name="MyNetatmo24.SharedKernel">
+      <classes>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.SharedKernel.Results.CachedResult&lt;T&gt;" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Results/CachedResult.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(FluentResults.Result&lt;T&gt;)">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="0.5" complexity="4" name="MyNetatmo24.SharedKernel.Results.EndpointError" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Results/EndpointError.cs">
+          <methods>
+            <method line-rate="1" branch-rate="0.5" complexity="4" name="get_StatusCode" signature="()">
+              <lines>
+                <line number="9" hits="1" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                    <condition number="1" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(int, string)">
+              <lines>
+                <line number="12" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="1" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+                <condition number="1" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="12" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="12" name="MyNetatmo24.SharedKernel.Modules.ModuleExtensions" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Modules/ModuleExtensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="8" name="DiscoverModules" signature="()">
+              <lines>
+                <line number="13" hits="1" branch="True" condition-coverage="100% (8/8)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="2" type="jump" coverage="100%" />
+                    <condition number="3" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="2" name="AddModules" signature="(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+              <lines>
+                <line number="29" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="31" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="2" name="UseModules" signature="(Microsoft.AspNetCore.Builder.WebApplication)">
+              <lines>
+                <line number="42" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="44" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".cctor" signature="()">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="1" branch="False" />
+            <line number="13" hits="1" branch="True" condition-coverage="100% (8/8)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="2" type="jump" coverage="100%" />
+                <condition number="3" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="14" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="29" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="31" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="42" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="44" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.SharedKernel.Messages.AccountCreated" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Messages/AccountCreated.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(MyNetatmo24.SharedKernel.StronglyTypedIds.AccountId, string, string)">
+              <lines>
+                <line number="5" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.SharedKernel.Messages.AccountRestored" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Messages/AccountRestored.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(MyNetatmo24.SharedKernel.StronglyTypedIds.AccountId)">
+              <lines>
+                <line number="5" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="14" name="MyNetatmo24.SharedKernel.Infrastructure.Extensions" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Infrastructure/Extensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="6" name="ApplyStronglyTypedIdEfConvertersFromAssembly" signature="(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder, System.Reflection.Assembly)">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="19" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="21" hits="1" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="22" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="6" name="TryGetEfValueConverter" signature="(System.Type, out System.Type)">
+              <lines>
+                <line number="33" hits="1" branch="False" />
+                <line number="35" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="37" hits="1" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="2" name="IsVogenValueObject" signature="(System.Reflection.MemberInfo)">
+              <lines>
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="19" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="21" hits="1" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="22" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="35" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="37" hits="1" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="38" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class line-rate="0.3333333333333333" branch-rate="1" complexity="1" name="MyNetatmo24.SharedKernel.Infrastructure.HelperExtensions" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Infrastructure/HelperExtensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="ThrowIfNull" signature="&lt;T&gt;(T, string)">
+              <lines>
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="ThrowIfNullOrEmpty" signature="(string, string)">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="ThrowIfNullOrWhiteSpace" signature="(string, string)">
+              <lines>
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="4" name="MyNetatmo24.SharedKernel.Infrastructure.ModuleDbContext" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Infrastructure/ModuleDbContext.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions, System.TimeProvider)">
+              <lines>
+                <line number="7" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="OnConfiguring" signature="(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="OnModelCreating" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)">
+              <lines>
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="ConfigureConventions" signature="(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)">
+              <lines>
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="4" name="ConfigureSoftDeleteQueryFilters" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)">
+              <lines>
+                <line number="44" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="46" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="SetGlobalQueryForSoftDelete" signature="&lt;T&gt;(Microsoft.EntityFrameworkCore.ModelBuilder)">
+              <lines>
+                <line number="55" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".cctor" signature="()">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="44" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="46" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.6666666666666666" branch-rate="0.6" complexity="10" name="MyNetatmo24.SharedKernel.Infrastructure.SoftDeleteInterceptor" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Infrastructure/SoftDeleteInterceptor.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(System.TimeProvider)">
+              <lines>
+                <line number="7" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0.625" branch-rate="0.6" complexity="10" name="SavingChangesAsync" signature="(Microsoft.EntityFrameworkCore.Diagnostics.DbContextEventData, Microsoft.EntityFrameworkCore.Diagnostics.InterceptionResult&lt;int&gt;, System.Threading.CancellationToken)">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+                <line number="16" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="18" hits="0" branch="False" />
+                <line number="21" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="23" hits="1" branch="True" condition-coverage="50% (3/6)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="50%" />
+                    <condition number="2" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="32" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="16" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="18" hits="0" branch="False" />
+            <line number="21" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="23" hits="1" branch="True" condition-coverage="50% (3/6)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="50%" />
+                <condition number="2" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="32" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="1" name="MyNetatmo24.SharedKernel.Endpoints.RouteHandlerBuilderExtensions" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Endpoints/RouteHandlerBuilderExtensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="ProducesWithDescription" signature="(Microsoft.AspNetCore.Builder.RouteHandlerBuilder, int, string, string, string[])">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="ProducesWithDescription" signature="&lt;T&gt;(Microsoft.AspNetCore.Builder.RouteHandlerBuilder, int, string, string, string[])">
+              <lines>
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.3333333333333333" branch-rate="1" complexity="1" name="MyNetatmo24.SharedKernel.Domain.ISoftDelete" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Domain/ISoftDelete.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_IsDeleted" signature="()">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="Delete" signature="(System.TimeProvider)">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="Undo" signature="()">
+              <lines>
+                <line number="28" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="28" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="0" complexity="2" name="MyNetatmo24.SharedKernel.Domain.NetatmoAuthInfo" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Domain/NetatmoAuthInfo.cs">
+          <methods>
+            <method line-rate="0" branch-rate="0" complexity="2" name="From" signature="(string, string, System.Nullable&lt;int&gt;)">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="14" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="1" name="MyNetatmo24.SharedKernel.Results.ResultExtensions.&lt;&gt;c__DisplayClass3_0&lt;T, TWith, TResult&gt;" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Results/ResultExtensions.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BindWith&gt;b__0" signature="(FluentResults.IReason)">
+              <lines>
+                <line number="48" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="48" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="4" name="MyNetatmo24.SharedKernel.Results.ResultExtensions.&lt;BindWith&gt;d__3&lt;T, TWith, TResult&gt;" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Results/ResultExtensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="4" name="MoveNext" signature="()">
+              <lines>
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="50" hits="1" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="50" hits="1" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="2" name="MyNetatmo24.SharedKernel.Results.ResultExtensions.&lt;Compensate&gt;d__1" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Results/ResultExtensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="2" name="MoveNext" signature="()">
+              <lines>
+                <line number="18" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="23" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="23" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="1" branch-rate="1" complexity="8" name="MyNetatmo24.SharedKernel.Modules.ModuleExtensions.&lt;&gt;c" filename="/Users/fabien/Projects/GitHub/my-netatmo-24/MyNetatmo24.SharedKernel/Modules/ModuleExtensions.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;DiscoverModules&gt;b__1_0" signature="(string)">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="2" name="&lt;DiscoverModules&gt;b__1_1" signature="(System.Reflection.Assembly)">
+              <lines>
+                <line number="17" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="6" name="&lt;DiscoverModules&gt;b__1_3" signature="(System.Type)">
+              <lines>
+                <line number="18" hits="1" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="100%" />
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="2" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="&lt;DiscoverModules&gt;b__1_2" signature="(System.Type)">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="False" />
+            <line number="17" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="18" hits="1" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%" />
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="2" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
