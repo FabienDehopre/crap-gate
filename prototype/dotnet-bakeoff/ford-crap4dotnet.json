@@ -1,0 +1,1267 @@
+{
+  "schemaVersion": "1.0",
+  "project": "FordConnectToAbrpSync",
+  "timestamp": "2026-08-26T09:36:31.0155450\u002B00:00",
+  "threshold": 30,
+  "stats": {
+    "methodCount": 49,
+    "totalCrap": 646.050537037037,
+    "averageCrap": 13.18470483749055,
+    "medianCrap": 3,
+    "standardDeviation": 39.41102543739779,
+    "crappyMethodCount": 4,
+    "crappyMethodPercent": 8.16326530612245,
+    "totalCrapLoad": 37.2
+  },
+  "methods": [
+    {
+      "namespace": "",
+      "className": "Program",
+      "methodName": "\u003CMain\u003E$",
+      "signature": "(string[])",
+      "fullName": "Program.\u003CMain\u003E$(string[])",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Program.cs",
+      "lineNumber": 21,
+      "crap": 272,
+      "complexity": 16,
+      "coverage": 0,
+      "crapLoad": 16.53,
+      "isCrappy": true,
+      "severity": "critical"
+    },
+    {
+      "namespace": "",
+      "className": "",
+      "methodName": "ReadMinimumLevel",
+      "signature": "(IConfiguration)",
+      "fullName": "ReadMinimumLevel(IConfiguration)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Program.cs",
+      "lineNumber": 235,
+      "crap": 12,
+      "complexity": 3,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "moderate"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "TestCommand",
+      "methodName": "RunAsync",
+      "signature": "(CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Ford.TestCommand.RunAsync(CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/TestCommand.cs",
+      "lineNumber": 15,
+      "crap": 6,
+      "complexity": 2,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "moderate"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "LoginCommand",
+      "methodName": "RunAsync",
+      "signature": "(CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Ford.LoginCommand.RunAsync(CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/LoginCommand.cs",
+      "lineNumber": 25,
+      "crap": 56,
+      "complexity": 7,
+      "coverage": 0,
+      "crapLoad": 7.23,
+      "isCrappy": true,
+      "severity": "high"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "LoginCommand",
+      "methodName": "BuildAuthorizeUrl",
+      "signature": "(string, string)",
+      "fullName": "FordConnectToAbrpSync.Ford.LoginCommand.BuildAuthorizeUrl(string, string)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/LoginCommand.cs",
+      "lineNumber": 104,
+      "crap": 2,
+      "complexity": 1,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "LoginCommand",
+      "methodName": "WaitForRedirectAsync",
+      "signature": "(HttpListener, CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Ford.LoginCommand.WaitForRedirectAsync(HttpListener, CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/LoginCommand.cs",
+      "lineNumber": 120,
+      "crap": 6,
+      "complexity": 2,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "moderate"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "LoginCommand",
+      "methodName": "CreateState",
+      "signature": "()",
+      "fullName": "FordConnectToAbrpSync.Ford.LoginCommand.CreateState()",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/LoginCommand.cs",
+      "lineNumber": 145,
+      "crap": 2,
+      "complexity": 1,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "LoginCommand",
+      "methodName": "TryOpenBrowser",
+      "signature": "(string)",
+      "fullName": "FordConnectToAbrpSync.Ford.LoginCommand.TryOpenBrowser(string)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/LoginCommand.cs",
+      "lineNumber": 147,
+      "crap": 6,
+      "complexity": 2,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "moderate"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "FordAuthClient",
+      "methodName": "EffectiveScope.get",
+      "signature": "",
+      "fullName": "FordConnectToAbrpSync.Ford.FordAuthClient.EffectiveScope.get",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/FordAuthClient.cs",
+      "lineNumber": 22,
+      "crap": 2,
+      "complexity": 2,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "FordAuthClient",
+      "methodName": "ExchangeCodeAsync",
+      "signature": "(string, string, CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Ford.FordAuthClient.ExchangeCodeAsync(string, string, CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/FordAuthClient.cs",
+      "lineNumber": 26,
+      "crap": 1,
+      "complexity": 1,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "FordAuthClient",
+      "methodName": "RefreshAsync",
+      "signature": "(string, CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Ford.FordAuthClient.RefreshAsync(string, CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/FordAuthClient.cs",
+      "lineNumber": 41,
+      "crap": 1,
+      "complexity": 1,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "FordAuthClient",
+      "methodName": "PostTokenAsync",
+      "signature": "(Dictionary\u003Cstring, string\u003E, CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Ford.FordAuthClient.PostTokenAsync(Dictionary\u003Cstring, string\u003E, CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/FordAuthClient.cs",
+      "lineNumber": 54,
+      "crap": 2,
+      "complexity": 1,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "FordAuthenticationHandler",
+      "methodName": "SendAsync",
+      "signature": "(HttpRequestMessage, CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Ford.FordAuthenticationHandler.SendAsync(HttpRequestMessage, CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/FordAuthenticationHandler.cs",
+      "lineNumber": 19,
+      "crap": 6,
+      "complexity": 2,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "moderate"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "FordAuthenticationHandler",
+      "methodName": "ApplyAuthAsync",
+      "signature": "(HttpRequestMessage, bool, CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Ford.FordAuthenticationHandler.ApplyAuthAsync(HttpRequestMessage, bool, CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/FordAuthenticationHandler.cs",
+      "lineNumber": 36,
+      "crap": 12,
+      "complexity": 3,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "moderate"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "FordTelemetryClient",
+      "methodName": "GetTelemetryAsync",
+      "signature": "(CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Ford.FordTelemetryClient.GetTelemetryAsync(CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/FordTelemetryClient.cs",
+      "lineNumber": 18,
+      "crap": 2,
+      "complexity": 1,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "FordTelemetryClient",
+      "methodName": "GetRawTelemetryAsync",
+      "signature": "(CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Ford.FordTelemetryClient.GetRawTelemetryAsync(CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/FordTelemetryClient.cs",
+      "lineNumber": 33,
+      "crap": 2,
+      "complexity": 1,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Ford",
+      "className": "FordTokenService",
+      "methodName": "GetAccessTokenAsync",
+      "signature": "(bool, CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Ford.FordTokenService.GetAccessTokenAsync(bool, CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Ford/FordTokenService.cs",
+      "lineNumber": 25,
+      "crap": 56,
+      "complexity": 7,
+      "coverage": 0,
+      "crapLoad": 7.23,
+      "isCrappy": true,
+      "severity": "high"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Security",
+      "className": "SignalAuthenticator",
+      "methodName": "IsAuthorized",
+      "signature": "(string?, string?)",
+      "fullName": "FordConnectToAbrpSync.Security.SignalAuthenticator.IsAuthorized(string?, string?)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Security/SignalAuthenticator.cs",
+      "lineNumber": 15,
+      "crap": 4,
+      "complexity": 4,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Security",
+      "className": "EncryptedFileTokenStore",
+      "methodName": "Load",
+      "signature": "()",
+      "fullName": "FordConnectToAbrpSync.Security.EncryptedFileTokenStore.Load()",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Security/EncryptedFileTokenStore.cs",
+      "lineNumber": 20,
+      "crap": 2,
+      "complexity": 2,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Security",
+      "className": "EncryptedFileTokenStore",
+      "methodName": "Save",
+      "signature": "(StoredToken)",
+      "fullName": "FordConnectToAbrpSync.Security.EncryptedFileTokenStore.Save(StoredToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Security/EncryptedFileTokenStore.cs",
+      "lineNumber": 32,
+      "crap": 2,
+      "complexity": 2,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Health",
+      "className": "HeartbeatCheck",
+      "methodName": "Run",
+      "signature": "(string, DateTimeOffset)",
+      "fullName": "FordConnectToAbrpSync.Health.HeartbeatCheck.Run(string, DateTimeOffset)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Health/HeartbeatCheck.cs",
+      "lineNumber": 7,
+      "crap": 4,
+      "complexity": 4,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Health",
+      "className": "HeartbeatWriter",
+      "methodName": "Touch",
+      "signature": "(DateTimeOffset, TimeSpan)",
+      "fullName": "FordConnectToAbrpSync.Health.HeartbeatWriter.Touch(DateTimeOffset, TimeSpan)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Health/HeartbeatWriter.cs",
+      "lineNumber": 10,
+      "crap": 2,
+      "complexity": 2,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Abrp",
+      "className": "AbrpClient",
+      "methodName": "SendAsync",
+      "signature": "(AbrpTelemetry, CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Abrp.AbrpClient.SendAsync(AbrpTelemetry, CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Abrp/AbrpClient.cs",
+      "lineNumber": 17,
+      "crap": 2,
+      "complexity": 1,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncDecider",
+      "methodName": "Decide",
+      "signature": "(DateTimeOffset?, AbrpTelemetry)",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncDecider.Decide(DateTimeOffset?, AbrpTelemetry)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncDecider.cs",
+      "lineNumber": 29,
+      "crap": 5,
+      "complexity": 5,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncDecider",
+      "methodName": "CommitRelay",
+      "signature": "(AbrpTelemetry)",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncDecider.CommitRelay(AbrpTelemetry)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncDecider.cs",
+      "lineNumber": 52,
+      "crap": 1,
+      "complexity": 1,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncDecider",
+      "methodName": "IsWorthRelaying",
+      "signature": "(AbrpTelemetry)",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncDecider.IsWorthRelaying(AbrpTelemetry)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncDecider.cs",
+      "lineNumber": 55,
+      "crap": 3,
+      "complexity": 3,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncDecider",
+      "methodName": "IsStale",
+      "signature": "(DateTimeOffset?)",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncDecider.IsStale(DateTimeOffset?)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncDecider.cs",
+      "lineNumber": 58,
+      "crap": 2.02,
+      "complexity": 2,
+      "coverage": 0.8333333333333334,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "WatchedSubsetComparer",
+      "methodName": "HasMeaningfulChange",
+      "signature": "(WatchedSubset, WatchedSubset, ChangeTolerances)",
+      "fullName": "FordConnectToAbrpSync.Sync.WatchedSubsetComparer.HasMeaningfulChange(WatchedSubset, WatchedSubset, ChangeTolerances)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/WatchedSubsetComparer.cs",
+      "lineNumber": 9,
+      "crap": 8,
+      "complexity": 8,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "moderate"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "WatchedSubsetComparer",
+      "methodName": "NumericChanged",
+      "signature": "(double?, double?, double)",
+      "fullName": "FordConnectToAbrpSync.Sync.WatchedSubsetComparer.NumericChanged(double?, double?, double)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/WatchedSubsetComparer.cs",
+      "lineNumber": 24,
+      "crap": 5,
+      "complexity": 5,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "WatchedSubsetComparer",
+      "methodName": "BoolChanged",
+      "signature": "(bool?, bool?)",
+      "fullName": "FordConnectToAbrpSync.Sync.WatchedSubsetComparer.BoolChanged(bool?, bool?)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/WatchedSubsetComparer.cs",
+      "lineNumber": 39,
+      "crap": 1,
+      "complexity": 1,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncWorker",
+      "methodName": "ExecuteAsync",
+      "signature": "(CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncWorker.ExecuteAsync(CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncWorker.cs",
+      "lineNumber": 36,
+      "crap": 20,
+      "complexity": 4,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "elevated"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncWorker",
+      "methodName": "NextWait",
+      "signature": "()",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncWorker.NextWait()",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncWorker.cs",
+      "lineNumber": 66,
+      "crap": 30,
+      "complexity": 5,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "elevated"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncWorker",
+      "methodName": "TouchHeartbeatSafely",
+      "signature": "(TimeSpan)",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncWorker.TouchHeartbeatSafely(TimeSpan)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncWorker.cs",
+      "lineNumber": 92,
+      "crap": 6,
+      "complexity": 2,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "moderate"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncWorker",
+      "methodName": "RunCycleSafelyAsync",
+      "signature": "(CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncWorker.RunCycleSafelyAsync(CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncWorker.cs",
+      "lineNumber": 104,
+      "crap": 20,
+      "complexity": 4,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "elevated"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncWorker",
+      "methodName": "RunCycleAsync",
+      "signature": "(CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncWorker.RunCycleAsync(CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncWorker.cs",
+      "lineNumber": 124,
+      "crap": 42,
+      "complexity": 6,
+      "coverage": 0,
+      "crapLoad": 6.2,
+      "isCrappy": true,
+      "severity": "high"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncWorker",
+      "methodName": "RelayAsync",
+      "signature": "(AbrpTelemetry, CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncWorker.RelayAsync(AbrpTelemetry, CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncWorker.cs",
+      "lineNumber": 161,
+      "crap": 6,
+      "complexity": 2,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "moderate"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncPacer",
+      "methodName": "Wake",
+      "signature": "(DateTimeOffset, TimeSpan)",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncPacer.Wake(DateTimeOffset, TimeSpan)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncPacer.cs",
+      "lineNumber": 19,
+      "crap": 1,
+      "complexity": 1,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncPacer",
+      "methodName": "Sleep",
+      "signature": "()",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncPacer.Sleep()",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncPacer.cs",
+      "lineNumber": 29,
+      "crap": 1,
+      "complexity": 1,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncPacer",
+      "methodName": "IsBoosted",
+      "signature": "(DateTimeOffset)",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncPacer.IsBoosted(DateTimeOffset)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncPacer.cs",
+      "lineNumber": 38,
+      "crap": 1,
+      "complexity": 1,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncPacer",
+      "methodName": "WaitAsync",
+      "signature": "(TimeSpan, CancellationToken)",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncPacer.WaitAsync(TimeSpan, CancellationToken)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncPacer.cs",
+      "lineNumber": 51,
+      "crap": 12,
+      "complexity": 3,
+      "coverage": 0,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "moderate"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "SyncPacer",
+      "methodName": "NewPulse",
+      "signature": "()",
+      "fullName": "FordConnectToAbrpSync.Sync.SyncPacer.NewPulse()",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/SyncPacer.cs",
+      "lineNumber": 83,
+      "crap": 1,
+      "complexity": 1,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "AbrpTelemetryMapper",
+      "methodName": "Map",
+      "signature": "(FordTelemetryResponse, bool)",
+      "fullName": "FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.Map(FordTelemetryResponse, bool)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/AbrpTelemetryMapper.cs",
+      "lineNumber": 22,
+      "crap": 2.01,
+      "complexity": 2,
+      "coverage": 0.85,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "AbrpTelemetryMapper",
+      "methodName": "MapElevation",
+      "signature": "(FordMetrics)",
+      "fullName": "FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.MapElevation(FordMetrics)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/AbrpTelemetryMapper.cs",
+      "lineNumber": 59,
+      "crap": 2.02,
+      "complexity": 2,
+      "coverage": 0.8333333333333334,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "AbrpTelemetryMapper",
+      "methodName": "ComputePower",
+      "signature": "(FordMetrics, bool)",
+      "fullName": "FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.ComputePower(FordMetrics, bool)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/AbrpTelemetryMapper.cs",
+      "lineNumber": 65,
+      "crap": 4,
+      "complexity": 4,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "AbrpTelemetryMapper",
+      "methodName": "MapIsCharging",
+      "signature": "(FordMetrics)",
+      "fullName": "FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.MapIsCharging(FordMetrics)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/AbrpTelemetryMapper.cs",
+      "lineNumber": 78,
+      "crap": 2,
+      "complexity": 2,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "AbrpTelemetryMapper",
+      "methodName": "MapIsDcfc",
+      "signature": "(FordMetrics)",
+      "fullName": "FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.MapIsDcfc(FordMetrics)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/AbrpTelemetryMapper.cs",
+      "lineNumber": 86,
+      "crap": 3,
+      "complexity": 3,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "AbrpTelemetryMapper",
+      "methodName": "MapIsParked",
+      "signature": "(FordMetrics)",
+      "fullName": "FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.MapIsParked(FordMetrics)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/AbrpTelemetryMapper.cs",
+      "lineNumber": 100,
+      "crap": 2,
+      "complexity": 2,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "WatchedSubset",
+      "methodName": "From",
+      "signature": "(AbrpTelemetry)",
+      "fullName": "FordConnectToAbrpSync.Sync.WatchedSubset.From(AbrpTelemetry)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/WatchedSubset.cs",
+      "lineNumber": 20,
+      "crap": 1,
+      "complexity": 1,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    },
+    {
+      "namespace": "FordConnectToAbrpSync.Sync",
+      "className": "IdleDetector",
+      "methodName": "IsIdle",
+      "signature": "(FordTelemetryResponse)",
+      "fullName": "FordConnectToAbrpSync.Sync.IdleDetector.IsIdle(FordTelemetryResponse)",
+      "filePath": "/Users/fabien/Projects/GitHub/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/IdleDetector.cs",
+      "lineNumber": 16,
+      "crap": 3,
+      "complexity": 3,
+      "coverage": 1,
+      "crapLoad": 0,
+      "isCrappy": false,
+      "severity": "low"
+    }
+  ],
+  "histogram": [
+    {
+      "range": "0-5",
+      "count": 30,
+      "percent": 61.224489795918366
+    },
+    {
+      "range": "5-10",
+      "count": 9,
+      "percent": 18.367346938775512
+    },
+    {
+      "range": "10-15",
+      "count": 3,
+      "percent": 6.122448979591836
+    },
+    {
+      "range": "15-20",
+      "count": 0,
+      "percent": 0
+    },
+    {
+      "range": "20-25",
+      "count": 2,
+      "percent": 4.081632653061225
+    },
+    {
+      "range": "25-30",
+      "count": 0,
+      "percent": 0
+    },
+    {
+      "range": "30-40",
+      "count": 1,
+      "percent": 2.0408163265306123
+    },
+    {
+      "range": "40-50",
+      "count": 1,
+      "percent": 2.0408163265306123
+    },
+    {
+      "range": "50-75",
+      "count": 2,
+      "percent": 4.081632653061225
+    },
+    {
+      "range": "75-100",
+      "count": 0,
+      "percent": 0
+    },
+    {
+      "range": "100\u002B",
+      "count": 1,
+      "percent": 2.0408163265306123
+    }
+  ],
+  "hierarchy": {
+    "namespaces": [
+      {
+        "name": "",
+        "stats": {
+          "methodCount": 2,
+          "totalCrap": 284,
+          "averageCrap": 142,
+          "medianCrap": 142,
+          "standardDeviation": 130,
+          "crappyMethodCount": 1,
+          "crappyMethodPercent": 50,
+          "totalCrapLoad": 16.533333333333335
+        },
+        "classes": [
+          {
+            "name": "Program",
+            "stats": {
+              "methodCount": 1,
+              "totalCrap": 272,
+              "averageCrap": 272,
+              "medianCrap": 272,
+              "standardDeviation": 0,
+              "crappyMethodCount": 1,
+              "crappyMethodPercent": 100,
+              "totalCrapLoad": 16.533333333333335
+            },
+            "methods": [
+              "Program.\u003CMain\u003E$(string[])"
+            ]
+          },
+          {
+            "name": "",
+            "stats": {
+              "methodCount": 1,
+              "totalCrap": 12,
+              "averageCrap": 12,
+              "medianCrap": 12,
+              "standardDeviation": 0,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "ReadMinimumLevel(IConfiguration)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FordConnectToAbrpSync.Ford",
+        "stats": {
+          "methodCount": 15,
+          "totalCrap": 162,
+          "averageCrap": 10.8,
+          "medianCrap": 2,
+          "standardDeviation": 17.956243111148463,
+          "crappyMethodCount": 2,
+          "crappyMethodPercent": 13.333333333333334,
+          "totalCrapLoad": 14.466666666666667
+        },
+        "classes": [
+          {
+            "name": "TestCommand",
+            "stats": {
+              "methodCount": 1,
+              "totalCrap": 6,
+              "averageCrap": 6,
+              "medianCrap": 6,
+              "standardDeviation": 0,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Ford.TestCommand.RunAsync(CancellationToken)"
+            ]
+          },
+          {
+            "name": "LoginCommand",
+            "stats": {
+              "methodCount": 5,
+              "totalCrap": 72,
+              "averageCrap": 14.4,
+              "medianCrap": 6,
+              "standardDeviation": 20.87678136111982,
+              "crappyMethodCount": 1,
+              "crappyMethodPercent": 20,
+              "totalCrapLoad": 7.233333333333333
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Ford.LoginCommand.RunAsync(CancellationToken)",
+              "FordConnectToAbrpSync.Ford.LoginCommand.BuildAuthorizeUrl(string, string)",
+              "FordConnectToAbrpSync.Ford.LoginCommand.WaitForRedirectAsync(HttpListener, CancellationToken)",
+              "FordConnectToAbrpSync.Ford.LoginCommand.CreateState()",
+              "FordConnectToAbrpSync.Ford.LoginCommand.TryOpenBrowser(string)"
+            ]
+          },
+          {
+            "name": "FordAuthClient",
+            "stats": {
+              "methodCount": 4,
+              "totalCrap": 6,
+              "averageCrap": 1.5,
+              "medianCrap": 1.5,
+              "standardDeviation": 0.5,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Ford.FordAuthClient.EffectiveScope.get",
+              "FordConnectToAbrpSync.Ford.FordAuthClient.ExchangeCodeAsync(string, string, CancellationToken)",
+              "FordConnectToAbrpSync.Ford.FordAuthClient.RefreshAsync(string, CancellationToken)",
+              "FordConnectToAbrpSync.Ford.FordAuthClient.PostTokenAsync(Dictionary\u003Cstring, string\u003E, CancellationToken)"
+            ]
+          },
+          {
+            "name": "FordAuthenticationHandler",
+            "stats": {
+              "methodCount": 2,
+              "totalCrap": 18,
+              "averageCrap": 9,
+              "medianCrap": 9,
+              "standardDeviation": 3,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Ford.FordAuthenticationHandler.SendAsync(HttpRequestMessage, CancellationToken)",
+              "FordConnectToAbrpSync.Ford.FordAuthenticationHandler.ApplyAuthAsync(HttpRequestMessage, bool, CancellationToken)"
+            ]
+          },
+          {
+            "name": "FordTelemetryClient",
+            "stats": {
+              "methodCount": 2,
+              "totalCrap": 4,
+              "averageCrap": 2,
+              "medianCrap": 2,
+              "standardDeviation": 0,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Ford.FordTelemetryClient.GetTelemetryAsync(CancellationToken)",
+              "FordConnectToAbrpSync.Ford.FordTelemetryClient.GetRawTelemetryAsync(CancellationToken)"
+            ]
+          },
+          {
+            "name": "FordTokenService",
+            "stats": {
+              "methodCount": 1,
+              "totalCrap": 56,
+              "averageCrap": 56,
+              "medianCrap": 56,
+              "standardDeviation": 0,
+              "crappyMethodCount": 1,
+              "crappyMethodPercent": 100,
+              "totalCrapLoad": 7.233333333333333
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Ford.FordTokenService.GetAccessTokenAsync(bool, CancellationToken)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FordConnectToAbrpSync.Security",
+        "stats": {
+          "methodCount": 3,
+          "totalCrap": 8,
+          "averageCrap": 2.6666666666666665,
+          "medianCrap": 2,
+          "standardDeviation": 0.9428090415820634,
+          "crappyMethodCount": 0,
+          "crappyMethodPercent": 0,
+          "totalCrapLoad": 0
+        },
+        "classes": [
+          {
+            "name": "SignalAuthenticator",
+            "stats": {
+              "methodCount": 1,
+              "totalCrap": 4,
+              "averageCrap": 4,
+              "medianCrap": 4,
+              "standardDeviation": 0,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Security.SignalAuthenticator.IsAuthorized(string?, string?)"
+            ]
+          },
+          {
+            "name": "EncryptedFileTokenStore",
+            "stats": {
+              "methodCount": 2,
+              "totalCrap": 4,
+              "averageCrap": 2,
+              "medianCrap": 2,
+              "standardDeviation": 0,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Security.EncryptedFileTokenStore.Load()",
+              "FordConnectToAbrpSync.Security.EncryptedFileTokenStore.Save(StoredToken)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FordConnectToAbrpSync.Health",
+        "stats": {
+          "methodCount": 2,
+          "totalCrap": 6,
+          "averageCrap": 3,
+          "medianCrap": 3,
+          "standardDeviation": 1,
+          "crappyMethodCount": 0,
+          "crappyMethodPercent": 0,
+          "totalCrapLoad": 0
+        },
+        "classes": [
+          {
+            "name": "HeartbeatCheck",
+            "stats": {
+              "methodCount": 1,
+              "totalCrap": 4,
+              "averageCrap": 4,
+              "medianCrap": 4,
+              "standardDeviation": 0,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Health.HeartbeatCheck.Run(string, DateTimeOffset)"
+            ]
+          },
+          {
+            "name": "HeartbeatWriter",
+            "stats": {
+              "methodCount": 1,
+              "totalCrap": 2,
+              "averageCrap": 2,
+              "medianCrap": 2,
+              "standardDeviation": 0,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Health.HeartbeatWriter.Touch(DateTimeOffset, TimeSpan)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FordConnectToAbrpSync.Abrp",
+        "stats": {
+          "methodCount": 1,
+          "totalCrap": 2,
+          "averageCrap": 2,
+          "medianCrap": 2,
+          "standardDeviation": 0,
+          "crappyMethodCount": 0,
+          "crappyMethodPercent": 0,
+          "totalCrapLoad": 0
+        },
+        "classes": [
+          {
+            "name": "AbrpClient",
+            "stats": {
+              "methodCount": 1,
+              "totalCrap": 2,
+              "averageCrap": 2,
+              "medianCrap": 2,
+              "standardDeviation": 0,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Abrp.AbrpClient.SendAsync(AbrpTelemetry, CancellationToken)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FordConnectToAbrpSync.Sync",
+        "stats": {
+          "methodCount": 26,
+          "totalCrap": 184.05053703703703,
+          "averageCrap": 7.078866809116809,
+          "medianCrap": 3,
+          "standardDeviation": 9.925363350135616,
+          "crappyMethodCount": 1,
+          "crappyMethodPercent": 3.8461538461538463,
+          "totalCrapLoad": 6.2
+        },
+        "classes": [
+          {
+            "name": "SyncDecider",
+            "stats": {
+              "methodCount": 4,
+              "totalCrap": 11.018518518518519,
+              "averageCrap": 2.7546296296296298,
+              "medianCrap": 2.5092592592592595,
+              "standardDeviation": 1.476692200821511,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Sync.SyncDecider.Decide(DateTimeOffset?, AbrpTelemetry)",
+              "FordConnectToAbrpSync.Sync.SyncDecider.CommitRelay(AbrpTelemetry)",
+              "FordConnectToAbrpSync.Sync.SyncDecider.IsWorthRelaying(AbrpTelemetry)",
+              "FordConnectToAbrpSync.Sync.SyncDecider.IsStale(DateTimeOffset?)"
+            ]
+          },
+          {
+            "name": "WatchedSubsetComparer",
+            "stats": {
+              "methodCount": 3,
+              "totalCrap": 14,
+              "averageCrap": 4.666666666666667,
+              "medianCrap": 5,
+              "standardDeviation": 2.8674417556808756,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Sync.WatchedSubsetComparer.HasMeaningfulChange(WatchedSubset, WatchedSubset, ChangeTolerances)",
+              "FordConnectToAbrpSync.Sync.WatchedSubsetComparer.NumericChanged(double?, double?, double)",
+              "FordConnectToAbrpSync.Sync.WatchedSubsetComparer.BoolChanged(bool?, bool?)"
+            ]
+          },
+          {
+            "name": "SyncWorker",
+            "stats": {
+              "methodCount": 6,
+              "totalCrap": 124,
+              "averageCrap": 20.666666666666668,
+              "medianCrap": 20,
+              "standardDeviation": 12.736648783028533,
+              "crappyMethodCount": 1,
+              "crappyMethodPercent": 16.666666666666664,
+              "totalCrapLoad": 6.2
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Sync.SyncWorker.ExecuteAsync(CancellationToken)",
+              "FordConnectToAbrpSync.Sync.SyncWorker.NextWait()",
+              "FordConnectToAbrpSync.Sync.SyncWorker.TouchHeartbeatSafely(TimeSpan)",
+              "FordConnectToAbrpSync.Sync.SyncWorker.RunCycleSafelyAsync(CancellationToken)",
+              "FordConnectToAbrpSync.Sync.SyncWorker.RunCycleAsync(CancellationToken)",
+              "FordConnectToAbrpSync.Sync.SyncWorker.RelayAsync(AbrpTelemetry, CancellationToken)"
+            ]
+          },
+          {
+            "name": "SyncPacer",
+            "stats": {
+              "methodCount": 5,
+              "totalCrap": 16,
+              "averageCrap": 3.2,
+              "medianCrap": 1,
+              "standardDeviation": 4.4,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Sync.SyncPacer.Wake(DateTimeOffset, TimeSpan)",
+              "FordConnectToAbrpSync.Sync.SyncPacer.Sleep()",
+              "FordConnectToAbrpSync.Sync.SyncPacer.IsBoosted(DateTimeOffset)",
+              "FordConnectToAbrpSync.Sync.SyncPacer.WaitAsync(TimeSpan, CancellationToken)",
+              "FordConnectToAbrpSync.Sync.SyncPacer.NewPulse()"
+            ]
+          },
+          {
+            "name": "AbrpTelemetryMapper",
+            "stats": {
+              "methodCount": 6,
+              "totalCrap": 15.03201851851852,
+              "averageCrap": 2.5053364197530867,
+              "medianCrap": 2.0160092592592593,
+              "standardDeviation": 0.7602999191936161,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.Map(FordTelemetryResponse, bool)",
+              "FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.MapElevation(FordMetrics)",
+              "FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.ComputePower(FordMetrics, bool)",
+              "FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.MapIsCharging(FordMetrics)",
+              "FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.MapIsDcfc(FordMetrics)",
+              "FordConnectToAbrpSync.Sync.AbrpTelemetryMapper.MapIsParked(FordMetrics)"
+            ]
+          },
+          {
+            "name": "WatchedSubset",
+            "stats": {
+              "methodCount": 1,
+              "totalCrap": 1,
+              "averageCrap": 1,
+              "medianCrap": 1,
+              "standardDeviation": 0,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Sync.WatchedSubset.From(AbrpTelemetry)"
+            ]
+          },
+          {
+            "name": "IdleDetector",
+            "stats": {
+              "methodCount": 1,
+              "totalCrap": 3,
+              "averageCrap": 3,
+              "medianCrap": 3,
+              "standardDeviation": 0,
+              "crappyMethodCount": 0,
+              "crappyMethodPercent": 0,
+              "totalCrapLoad": 0
+            },
+            "methods": [
+              "FordConnectToAbrpSync.Sync.IdleDetector.IsIdle(FordTelemetryResponse)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    {
+      "code": "UNMATCHED_METHODS",
+      "message": "20 method(s) have no coverage data (defaulting to 0.0): Program.\u003CMain\u003E$(string[]), ReadMinimumLevel(IConfiguration), FordConnectToAbrpSync.Ford.TestCommand.RunAsync(CancellationToken), FordConnectToAbrpSync.Ford.LoginCommand.RunAsync(CancellationToken), FordConnectToAbrpSync.Ford.LoginCommand.BuildAuthorizeUrl(string, string) and 15 more"
+    },
+    {
+      "code": "ORPHANED_COVERAGE",
+      "message": "29 coverage entry/entries have no matching source method: FordConnectToAbrpSync.Sync.ChangeTolerances..ctor, FordConnectToAbrpSync.Sync.SyncDecider..ctor, FordConnectToAbrpSync.Sync.SyncPacer..ctor, FordConnectToAbrpSync.Sync.SyncWorker..ctor, FordConnectToAbrpSync.Security.EncryptedFileTokenStore..ctor and 24 more"
+    },
+    {
+      "code": "COVERAGE_STALE",
+      "message": "Coverage data may be stale: 50% of coverage entries (29/58) have no matching source method."
+    }
+  ]
+}
