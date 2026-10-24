@@ -4,6 +4,12 @@ Scoring methods by Change Risk Anti-Patterns (CRAP) in CI, one lane per language
 
 ## Language
 
+### Structure
+
+**Lane**:
+One language's independent scoring path, with its own tool, complexity scale and report; never merged or compared with another lane.
+_Avoid_: Pipeline, gate (as a synonym), track
+
 ### Scoring outcomes
 
 **Excluded**:
