@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="FordConnectToAbrpSync.Sync.AbrpTelemetryMapper">
+  <Summary>
+    <Class>FordConnectToAbrpSync.Sync.AbrpTelemetryMapper</Class>
+    <Assembly>FordConnectToAbrpSync</Assembly>
+    <Files>
+      <File>/src/FordConnectToAbrpSync/FordConnectToAbrpSync/Sync/AbrpTelemetryMapper.cs</File>
+    </Files>
+    <Coveredlines>50</Coveredlines>
+    <Uncoveredlines>0</Uncoveredlines>
+    <Coverablelines>50</Coverablelines>
+    <Totallines>107</Totallines>
+    <Linecoverage>100</Linecoverage>
+    <Coveredbranches>70</Coveredbranches>
+    <Totalbranches>78</Totalbranches>
+    <Branchcoverage>89.7</Branchcoverage>
+    <Coveredmethods>6</Coveredmethods>
+    <Fullcoveredmethods>6</Fullcoveredmethods>
+    <Totalmethods>6</Totalmethods>
+    <Methodcoverage>100</Methodcoverage>
+    <Fullmethodcoverage>100</Fullmethodcoverage>
+  </Summary>
+  <Metrics>
+    <Element name="Map">
+      <CrapScore>40</CrapScore>
+      <Cyclomaticcomplexity>40</Cyclomaticcomplexity>
+      <Linecoverage>100</Linecoverage>
+      <Branchcoverage>85.00</Branchcoverage>
+    </Element>
+    <Element name="MapElevation">
+      <CrapScore>12</CrapScore>
+      <Cyclomaticcomplexity>12</Cyclomaticcomplexity>
+      <Linecoverage>100</Linecoverage>
+      <Branchcoverage>83.33</Branchcoverage>
+    </Element>
+    <Element name="ComputePower">
+      <CrapScore>10</CrapScore>
+      <Cyclomaticcomplexity>10</Cyclomaticcomplexity>
+      <Linecoverage>100</Linecoverage>
+      <Branchcoverage>100</Branchcoverage>
+    </Element>
+    <Element name="MapIsCharging">
+      <CrapScore>4</CrapScore>
+      <Cyclomaticcomplexity>4</Cyclomaticcomplexity>
+      <Linecoverage>100</Linecoverage>
+      <Branchcoverage>100</Branchcoverage>
+    </Element>
+    <Element name="MapIsDcfc">
+      <CrapScore>8</CrapScore>
+      <Cyclomaticcomplexity>8</Cyclomaticcomplexity>
+      <Linecoverage>100</Linecoverage>
+      <Branchcoverage>100</Branchcoverage>
+    </Element>
+    <Element name="MapIsParked">
+      <CrapScore>4</CrapScore>
+      <Cyclomaticcomplexity>4</Cyclomaticcomplexity>
+      <Linecoverage>100</Linecoverage>
+      <Branchcoverage>100</Branchcoverage>
+    </Element>
+  </Metrics>
+  <Files />
+</CoverageReport>

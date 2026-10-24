@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="FordConnectToAbrpSync.Abrp.AbrpClient">
+  <Summary>
+    <Class>FordConnectToAbrpSync.Abrp.AbrpClient</Class>
+    <Assembly>FordConnectToAbrpSync</Assembly>
+    <Files>
+      <File>/src/FordConnectToAbrpSync/FordConnectToAbrpSync/Abrp/AbrpClient.cs</File>
+    </Files>
+    <Coveredlines>14</Coveredlines>
+    <Uncoveredlines>0</Uncoveredlines>
+    <Coverablelines>14</Coverablelines>
+    <Totallines>36</Totallines>
+    <Linecoverage>100</Linecoverage>
+    <Coveredbranches>1</Coveredbranches>
+    <Totalbranches>2</Totalbranches>
+    <Branchcoverage>50</Branchcoverage>
+    <Coveredmethods>2</Coveredmethods>
+    <Fullcoveredmethods>2</Fullcoveredmethods>
+    <Totalmethods>2</Totalmethods>
+    <Methodcoverage>100</Methodcoverage>
+    <Fullmethodcoverage>100</Fullmethodcoverage>
+  </Summary>
+  <Metrics>
+    <Element name="ctor">
+      <CrapScore>1</CrapScore>
+      <Cyclomaticcomplexity>1</Cyclomaticcomplexity>
+      <Linecoverage>100</Linecoverage>
+      <Branchcoverage>100</Branchcoverage>
+    </Element>
+    <Element name="SendAsync">
+      <CrapScore>2</CrapScore>
+      <Cyclomaticcomplexity>2</Cyclomaticcomplexity>
+      <Linecoverage>100</Linecoverage>
+      <Branchcoverage>50.0</Branchcoverage>
+    </Element>
+  </Metrics>
+  <Files />
+</CoverageReport>

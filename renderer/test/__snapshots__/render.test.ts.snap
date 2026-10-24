@@ -1,0 +1,45 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`layout > matches the shared layout 1`] = `
+"<!-- crap-gate:backend -->
+## CRAP · backend
+
+**8** scored · n/a (not detectable from Cobertura) unscored · **2** over threshold 11 (enforcing)
+
+_Backend scale: ReportGenerator branch-based complexity (≈2× McCabe). Not comparable with the frontend._
+
+### Top 8
+
+| Method | Location | CC | Coverage % | CRAP |
+|---|---|---:|---:|---:|
+| \`Map\` | \`FordConnectToAbrpSync.Sync.AbrpTelemetryMapper\` | 40 | 100 | 40 |
+| \`MapElevation\` | \`FordConnectToAbrpSync.Sync.AbrpTelemetryMapper\` | 12 | 100 | 12 |
+| \`ComputePower\` | \`FordConnectToAbrpSync.Sync.AbrpTelemetryMapper\` | 10 | 100 | 10 |
+| \`MapIsDcfc\` | \`FordConnectToAbrpSync.Sync.AbrpTelemetryMapper\` | 8 | 100 | 8 |
+| \`MapIsCharging\` | \`FordConnectToAbrpSync.Sync.AbrpTelemetryMapper\` | 4 | 100 | 4 |
+| \`MapIsParked\` | \`FordConnectToAbrpSync.Sync.AbrpTelemetryMapper\` | 4 | 100 | 4 |
+| \`SendAsync\` | \`FordConnectToAbrpSync.Abrp.AbrpClient\` | 2 | 100 | 2 |
+| \`ctor\` | \`FordConnectToAbrpSync.Abrp.AbrpClient\` | 1 | 100 | 1 |
+
+<details>
+<summary>2 methods over 11</summary>
+
+| Method | Location | CC | Coverage % | CRAP |
+|---|---|---:|---:|---:|
+| \`Map\` | \`FordConnectToAbrpSync.Sync.AbrpTelemetryMapper\` | 40 | 100 | 40 |
+| \`MapElevation\` | \`FordConnectToAbrpSync.Sync.AbrpTelemetryMapper\` | 12 | 100 | 12 |
+
+</details>
+
+[Full report](https://example.test/a)
+
+<details>
+<summary>Run it locally</summary>
+
+\`\`\`sh
+reportgenerator …
+\`\`\`
+
+</details>
+"
+`;

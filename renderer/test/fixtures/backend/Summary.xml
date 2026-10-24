@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>24/10/2026 - 12:45:02</Generatedon>
+    <Parser>Cobertura</Parser>
+    <Assemblies>1</Assemblies>
+    <Classes>22</Classes>
+    <Files>21</Files>
+    <Coveredlines>289</Coveredlines>
+    <Uncoveredlines>84</Uncoveredlines>
+    <Coverablelines>373</Coverablelines>
+    <Totallines>1024</Totallines>
+    <Linecoverage>77.4</Linecoverage>
+    <Coveredbranches>160</Coveredbranches>
+    <Totalbranches>191</Totalbranches>
+    <Branchcoverage>83.7</Branchcoverage>
+    <Coveredmethods>49</Coveredmethods>
+    <Fullcoveredmethods>49</Fullcoveredmethods>
+    <Totalmethods>59</Totalmethods>
+    <Methodcoverage>83</Methodcoverage>
+    <Fullmethodcoverage>83</Fullmethodcoverage>
+  </Summary>
+  <Coverage>
+    <Assembly name="FordConnectToAbrpSync" classes="22" coverage="77.4" coveredlines="289" coverablelines="373" totallines="1089" branchcoverage="83.7" coveredbranches="160" totalbranches="191" coveredmethods="49" fullcoveredmethods="49" totalmethods="59" methodcoverage="83" fullmethodcoverage="83">
+      <Class name="FordConnectToAbrpSync.Abrp.AbrpClient" coverage="100" coveredlines="14" coverablelines="14" totallines="36" branchcoverage="50" coveredbranches="1" totalbranches="2" coveredmethods="2" fullcoveredmethods="2" totalmethods="2" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Configuration.AbrpOptions" coverage="100" coveredlines="4" coverablelines="4" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" fullcoveredmethods="1" totalmethods="1" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Configuration.FordOptions" coverage="100" coveredlines="10" coverablelines="10" totallines="44" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" fullcoveredmethods="1" totalmethods="1" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Configuration.SyncOptions" coverage="0" coveredlines="0" coverablelines="4" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" fullcoveredmethods="0" totalmethods="1" methodcoverage="0" fullmethodcoverage="0" />
+      <Class name="FordConnectToAbrpSync.Ford.FordAuthClient" coverage="100" coveredlines="32" coverablelines="32" totallines="67" branchcoverage="100" coveredbranches="4" totalbranches="4" coveredmethods="5" fullcoveredmethods="5" totalmethods="5" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Ford.FordAuthenticationHandler" coverage="100" coveredlines="17" coverablelines="17" totallines="47" branchcoverage="100" coveredbranches="6" totalbranches="6" coveredmethods="3" fullcoveredmethods="3" totalmethods="3" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Ford.FordTelemetryClient" coverage="66.6" coveredlines="8" coverablelines="12" totallines="39" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" fullcoveredmethods="2" totalmethods="3" methodcoverage="66.6" fullmethodcoverage="66.6" />
+      <Class name="FordConnectToAbrpSync.Ford.FordTokenService" coverage="100" coveredlines="27" coverablelines="27" totallines="65" branchcoverage="100" coveredbranches="14" totalbranches="14" coveredmethods="4" fullcoveredmethods="4" totalmethods="4" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Ford.FordTokenService.NotAuthenticatedException" coverage="100" coveredlines="1" coverablelines="1" totallines="65" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" fullcoveredmethods="1" totalmethods="1" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Health.HealthResponse" coverage="0" coveredlines="0" coverablelines="1" totallines="3" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" fullcoveredmethods="0" totalmethods="1" methodcoverage="0" fullmethodcoverage="0" />
+      <Class name="FordConnectToAbrpSync.Health.HeartbeatCheck" coverage="100" coveredlines="9" coverablelines="9" totallines="26" branchcoverage="100" coveredbranches="2" totalbranches="2" coveredmethods="1" fullcoveredmethods="1" totalmethods="1" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Health.HeartbeatWriter" coverage="100" coveredlines="9" coverablelines="9" totallines="23" branchcoverage="100" coveredbranches="2" totalbranches="2" coveredmethods="2" fullcoveredmethods="2" totalmethods="2" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Security.EncryptedFileTokenStore" coverage="100" coveredlines="17" coverablelines="17" totallines="47" branchcoverage="100" coveredbranches="4" totalbranches="4" coveredmethods="3" fullcoveredmethods="3" totalmethods="3" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Security.SignalAuthenticator" coverage="100" coveredlines="8" coverablelines="8" totallines="29" branchcoverage="100" coveredbranches="6" totalbranches="6" coveredmethods="1" fullcoveredmethods="1" totalmethods="1" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Sync.AbrpTelemetryMapper" coverage="100" coveredlines="50" coverablelines="50" totallines="107" branchcoverage="89.7" coveredbranches="70" totalbranches="78" coveredmethods="6" fullcoveredmethods="6" totalmethods="6" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Sync.ChangeTolerances" coverage="100" coveredlines="4" coverablelines="4" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" fullcoveredmethods="1" totalmethods="1" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Sync.IdleDetector" coverage="100" coveredlines="8" coverablelines="8" totallines="31" branchcoverage="100" coveredbranches="8" totalbranches="8" coveredmethods="1" fullcoveredmethods="1" totalmethods="1" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Sync.SyncDecider" coverage="100" coveredlines="17" coverablelines="17" totallines="69" branchcoverage="94.4" coveredbranches="17" totalbranches="18" coveredmethods="5" fullcoveredmethods="5" totalmethods="5" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Sync.SyncPacer" coverage="100" coveredlines="31" coverablelines="31" totallines="85" branchcoverage="100" coveredbranches="4" totalbranches="4" coveredmethods="6" fullcoveredmethods="6" totalmethods="6" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Sync.SyncWorker" coverage="0" coveredlines="0" coverablelines="75" totallines="177" branchcoverage="0" coveredbranches="0" totalbranches="21" coveredmethods="0" fullcoveredmethods="0" totalmethods="7" methodcoverage="0" fullmethodcoverage="0" />
+      <Class name="FordConnectToAbrpSync.Sync.WatchedSubset" coverage="100" coveredlines="9" coverablelines="9" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" fullcoveredmethods="1" totalmethods="1" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="FordConnectToAbrpSync.Sync.WatchedSubsetComparer" coverage="100" coveredlines="14" coverablelines="14" totallines="40" branchcoverage="100" coveredbranches="22" totalbranches="22" coveredmethods="3" fullcoveredmethods="3" totalmethods="3" methodcoverage="100" fullmethodcoverage="100" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

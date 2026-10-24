@@ -1,0 +1,101 @@
+name: crap-gate backend
+description: Score CRAP with ReportGenerator from existing Cobertura coverage, report it, and gate in enforce mode.
+
+inputs:
+  reports:
+    description: Cobertura files to score, as a ReportGenerator glob. Each test project must write its own file; they are merged.
+    default: '**/coverage.xml'
+  threshold:
+    description: A method scoring above this fails in enforce mode, on ReportGenerator's scale. Exactly the threshold passes.
+    default: '30'
+  mode:
+    description: warn (report only) or enforce (fail the job when a method is over the threshold).
+    default: warn
+  github-token:
+    description: Token for the sticky PR comment. Needs pull-requests write.
+    default: ${{ github.token }}
+
+outputs:
+  scored:
+    description: Number of scored methods.
+    value: ${{ steps.render.outputs.scored }}
+  over:
+    description: Number of methods over the threshold.
+    value: ${{ steps.render.outputs.over }}
+
+runs:
+  using: composite
+  steps:
+    - name: Check crap-gate prerequisites
+      id: check
+      shell: bash
+      env:
+        THRESHOLD: ${{ inputs.threshold }}
+        MODE: ${{ inputs.mode }}
+        REPORTS: ${{ inputs.reports }}
+      run: |
+        [[ "$MODE" == warn || "$MODE" == enforce ]] || { echo "::error::mode must be warn or enforce, got '$MODE'."; exit 1; }
+        [[ "$THRESHOLD" =~ ^[0-9]+$ ]] || { echo "::error::threshold must be a whole number (ReportGenerator rounds CRAP), got '$THRESHOLD'."; exit 1; }
+        # The hotspot threshold makes RG's HTML agree with the report. maximumThresholdForCrapScore is
+        # deliberately not set: RG would exit 1 on a breach, indistinguishable from a crash. The gate step decides.
+        settings="riskHotspotsAnalysisThresholds:metricThresholdForCrapScore=$THRESHOLD"
+        echo "settings=$settings" >> "$GITHUB_OUTPUT"
+        echo "command=reportgenerator $(printf "'%s' " "-reports:$REPORTS" -targetdir:crap-gate-report '-reporttypes:Xml;HtmlInline' "$settings")" >> "$GITHUB_OUTPUT"
+
+    - name: Score CRAP
+      uses: danielpalme/ReportGenerator-GitHub-Action@d3ebf1f760f7d8ab92cc44d9bcfee7ad73722a31 # v5
+      with:
+        reports: ${{ inputs.reports }}
+        targetdir: crap-gate-report
+        reporttypes: Xml;HtmlInline
+        customSettings: ${{ steps.check.outputs.settings }}
+
+    - name: Upload CRAP report
+      id: upload
+      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+      with:
+        name: crap-gate-backend
+        path: crap-gate-report
+
+    - name: Render CRAP report
+      id: render
+      shell: bash
+      env:
+        THRESHOLD: ${{ inputs.threshold }}
+        MODE: ${{ inputs.mode }}
+        ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
+        COMMAND: ${{ steps.check.outputs.command }}
+      run: |
+        node "$GITHUB_ACTION_PATH/../renderer/dist/render.js" backend crap-gate-report \
+          --threshold "$THRESHOLD" --mode "$MODE" \
+          --artifact-url "$ARTIFACT_URL" --command "$COMMAND" > "$RUNNER_TEMP/crap-gate-backend.md"
+        cat "$RUNNER_TEMP/crap-gate-backend.md" >> "$GITHUB_STEP_SUMMARY"
+
+    - name: Update CRAP PR comment
+      id: comment
+      if: github.event_name == 'pull_request'
+      continue-on-error: true
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
+      run: '"$GITHUB_ACTION_PATH/../scripts/upsert-comment.sh" backend "$RUNNER_TEMP/crap-gate-backend.md"'
+
+    - name: Note skipped PR comment
+      if: steps.comment.outcome == 'failure'
+      shell: bash
+      run: |
+        echo '_The PR comment was skipped: the token cannot write to this pull request (read-only for Dependabot and fork PRs)._' >> "$GITHUB_STEP_SUMMARY"
+
+    - name: CRAP gate
+      shell: bash
+      env:
+        MODE: ${{ inputs.mode }}
+        OVER: ${{ steps.render.outputs.over }}
+        THRESHOLD: ${{ inputs.threshold }}
+      run: |
+        [ "$OVER" -gt 0 ] || exit 0
+        if [ "$MODE" = enforce ]; then
+          echo "::error title=crap-gate backend::$OVER method(s) over the CRAP threshold of $THRESHOLD."
+          exit 1
+        fi
+        echo "::warning title=crap-gate backend::$OVER method(s) over the CRAP threshold of $THRESHOLD (warn-only)."
