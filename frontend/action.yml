@@ -1,0 +1,143 @@
+name: crap-gate frontend
+description: Score CRAP with crap-typescript from existing Vitest coverage, report it, and gate in enforce mode.
+
+inputs:
+  working-directory:
+    description: Where crap-typescript runs. It reads <working-directory>/coverage/coverage-final.json.
+    default: .
+  coverage-file:
+    description: An existing coverage-final.json elsewhere, copied into <working-directory>/coverage/ before scoring.
+    default: ''
+  exclude:
+    description: Extra globs to exclude, one per line, on top of the lane's standard set.
+    default: ''
+  threshold:
+    description: A method scoring above this fails in enforce mode. Exactly the threshold passes.
+    default: '30'
+  mode:
+    description: warn (report only) or enforce (fail the job when a method is over the threshold).
+    default: warn
+  unscored-warn-ratio:
+    description: Warn when more than this percentage of methods is unscored. Never fails the job.
+    default: '10'
+  github-token:
+    description: Token for the sticky PR comment. Needs pull-requests write.
+    default: ${{ github.token }}
+
+outputs:
+  scored:
+    description: Number of scored methods.
+    value: ${{ steps.render.outputs.scored }}
+  unscored:
+    description: Number of unscored methods.
+    value: ${{ steps.render.outputs.unscored }}
+  over:
+    description: Number of methods over the threshold.
+    value: ${{ steps.render.outputs.over }}
+
+runs:
+  using: composite
+  steps:
+    - name: Check crap-gate prerequisites
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+      env:
+        COVERAGE_FILE: ${{ inputs.coverage-file }}
+        THRESHOLD: ${{ inputs.threshold }}
+        MODE: ${{ inputs.mode }}
+      run: |
+        node -e 'const [a, b] = process.versions.node.split(".").map(Number); process.exit(a > 22 || (a === 22 && b >= 13) ? 0 : 1)' \
+          || { echo "::error::crap-gate needs Node 22.13 or later on PATH (found $(node --version)). Run actions/setup-node first."; exit 1; }
+        [[ "$MODE" == warn || "$MODE" == enforce ]] || { echo "::error::mode must be warn or enforce, got '$MODE'."; exit 1; }
+        [[ "$THRESHOLD" =~ ^[0-9]+(\.[0-9]+)?$ ]] || { echo "::error::threshold must be a number, got '$THRESHOLD'."; exit 1; }
+        if [ -n "$COVERAGE_FILE" ]; then
+          [ -f "$COVERAGE_FILE" ] || { echo "::error::coverage-file '$COVERAGE_FILE' does not exist. Run the tests with coverage before crap-gate."; exit 1; }
+          mkdir -p coverage
+          [ "$(realpath "$COVERAGE_FILE")" = "$(realpath -m coverage/coverage-final.json)" ] || cp "$COVERAGE_FILE" coverage/coverage-final.json
+        fi
+        # Without this file crap-typescript runs the test suite itself, which can wipe existing coverage output.
+        [ -f coverage/coverage-final.json ] || { echo "::error::No coverage/coverage-final.json in '$PWD'. Run the tests with coverage (v8 provider, json reporter) before crap-gate, or set coverage-file."; exit 1; }
+
+    - name: Score CRAP
+      id: score
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+      env:
+        EXCLUDE: ${{ inputs.exclude }}
+        THRESHOLD: ${{ inputs.threshold }}
+        CRAP_TYPESCRIPT: '@barney-media/crap-typescript@2.0.0'
+      run: |
+        npm install --no-save --no-audit --no-fund --silent --prefix "$RUNNER_TEMP/crap-gate" "$CRAP_TYPESCRIPT"
+        # The lane's standard set, then the repo's own exclusions.
+        args=(--format json --threshold "$THRESHOLD"
+          --exclude '**/test-setup.ts' --exclude '**/test-providers.ts' --exclude '**/testing/**'
+          --exclude '**/*.mock.ts' --exclude '**/main.ts' --exclude '**/main.server.ts')
+        while IFS= read -r glob; do
+          glob=$(echo "$glob" | xargs)
+          [ -n "$glob" ] && args+=(--exclude "$glob")
+        done <<< "$EXCLUDE"
+        echo "command=npx --yes $CRAP_TYPESCRIPT $(printf "'%s' " "${args[@]}")" >> "$GITHUB_OUTPUT"
+
+        mkdir -p .crap-gate
+        set +e
+        "$RUNNER_TEMP/crap-gate/node_modules/.bin/crap-typescript" "${args[@]}" --output .crap-gate/crap-report.json
+        code=$?
+        set -e
+        echo "exit-code=$code" >> "$GITHUB_OUTPUT"
+        # 2 is a threshold breach, which the gate step handles. Anything else non-zero is a real failure.
+        [ "$code" -eq 0 ] || [ "$code" -eq 2 ] || exit "$code"
+
+    - name: Upload CRAP report
+      id: upload
+      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+      with:
+        name: crap-gate-frontend
+        path: ${{ inputs.working-directory }}/.crap-gate/crap-report.json
+
+    - name: Render CRAP report
+      id: render
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+      env:
+        THRESHOLD: ${{ inputs.threshold }}
+        MODE: ${{ inputs.mode }}
+        RATIO: ${{ inputs.unscored-warn-ratio }}
+        ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
+        COMMAND: ${{ steps.score.outputs.command }}
+      run: |
+        node "$GITHUB_ACTION_PATH/../renderer/dist/render.js" frontend .crap-gate/crap-report.json \
+          --threshold "$THRESHOLD" --mode "$MODE" --unscored-warn-ratio "$RATIO" \
+          --artifact-url "$ARTIFACT_URL" --command "$COMMAND" > "$RUNNER_TEMP/crap-gate-frontend.md"
+        cat "$RUNNER_TEMP/crap-gate-frontend.md" >> "$GITHUB_STEP_SUMMARY"
+
+    - name: Update CRAP PR comment
+      id: comment
+      if: github.event_name == 'pull_request'
+      continue-on-error: true
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
+      run: '"$GITHUB_ACTION_PATH/../scripts/upsert-comment.sh" frontend "$RUNNER_TEMP/crap-gate-frontend.md"'
+
+    - name: Note skipped PR comment
+      if: steps.comment.outcome == 'failure'
+      shell: bash
+      run: |
+        echo '_The PR comment was skipped: the token cannot write to this pull request (read-only for Dependabot and fork PRs)._' >> "$GITHUB_STEP_SUMMARY"
+
+    - name: CRAP gate
+      shell: bash
+      env:
+        MODE: ${{ inputs.mode }}
+        EXIT_CODE: ${{ steps.score.outputs.exit-code }}
+        OVER: ${{ steps.render.outputs.over }}
+        THRESHOLD: ${{ inputs.threshold }}
+        UNSCORED_WARNING: ${{ steps.render.outputs.unscored-warning }}
+      run: |
+        [ -z "$UNSCORED_WARNING" ] || echo "::warning title=crap-gate frontend::$UNSCORED_WARNING"
+        [ "$EXIT_CODE" -eq 2 ] || exit 0
+        if [ "$MODE" = enforce ]; then
+          echo "::error title=crap-gate frontend::$OVER method(s) over the CRAP threshold of $THRESHOLD."
+          exit 1
+        fi
+        echo "::warning title=crap-gate frontend::$OVER method(s) over the CRAP threshold of $THRESHOLD (warn-only)."
