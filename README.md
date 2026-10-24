@@ -72,9 +72,13 @@ jobs:
       # … checkout, setup-dotnet, build …
       - run: >
           dotnet test --no-build -- --coverage --coverage-output-format cobertura
-          --coverage-output coverage.xml --coverage-settings "$GITHUB_WORKSPACE/coverage.config"
+          --coverage-settings "$GITHUB_WORKSPACE/coverage.config"
       - uses: FabienDehopre/crap-gate/backend@v1
+        with:
+          reports: TestResults/*.cobertura.xml
 ```
+
+With a single test project, `--coverage-output coverage.xml` and the default `reports` are enough.
 
 | Input | Default | |
 |---|---|---|
@@ -91,8 +95,22 @@ squares it. 30 on the backend is stricter than 30 on the frontend, deliberately;
 - **Exclusions live in `coverage.config`**, passed by your own `dotnet test`. Start from
   [`templates/coverage.config`](templates/coverage.config): its path patterns use `[\\/]` so they work on Linux.
 - **One Cobertura file per test project.** With several test projects writing the same
-  `TestResults/coverage.xml`, the last one wins and the others vanish from the report. Code that no test
-  project loads is absent from Cobertura altogether, so the backend cannot count it as unscored.
+  `TestResults/coverage.xml`, the last one wins and the others vanish from the report. MTP has no
+  placeholder for the file name, so name it per project in a `Directory.Build.targets` at the repo root,
+  and drop `--coverage-output` from the `dotnet test` command line:
+
+  ```xml
+  <Project>
+    <PropertyGroup Condition="'$(IsTestProject)' == 'true'">
+      <TestingPlatformCommandLineArguments>$(TestingPlatformCommandLineArguments) --coverage-output $(MSBuildProjectName).cobertura.xml</TestingPlatformCommandLineArguments>
+    </PropertyGroup>
+  </Project>
+  ```
+
+  It has to be `.targets`, not `.props`: `IsTestProject` is set by the test framework's package, after
+  `Directory.Build.props` is read. The argument is ignored when tests run without `--coverage`.
+  ReportGenerator merges the files; a method covered by any project counts as covered.
+  Code that no test project loads is absent from Cobertura altogether, so the backend cannot count it as unscored.
 - A .NET SDK on the runner (ReportGenerator runs as a .NET tool).
 
 ## Exclusions and unscored code
